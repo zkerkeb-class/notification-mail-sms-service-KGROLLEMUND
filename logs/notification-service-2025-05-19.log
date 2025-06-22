@@ -1,0 +1,734 @@
+[2025-05-19T08:24:56.439Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T08:24:56.443Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T08:24:56.444Z] 📋 Routes disponibles:
+[2025-05-19T08:24:56.445Z] GET /health - Vérification de santé du service
+[2025-05-19T08:24:56.446Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T08:24:56.447Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T08:24:56.448Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T08:24:56.449Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T08:24:56.449Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T08:24:56.450Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T08:24:56.451Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T08:41:54.531Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T08:41:54.534Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T08:41:54.535Z] 📋 Routes disponibles:
+[2025-05-19T08:41:54.536Z] GET /health - Vérification de santé du service
+[2025-05-19T08:41:54.536Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T08:41:54.537Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T08:41:54.537Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T08:41:54.538Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T08:41:54.538Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T08:41:54.541Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T08:41:54.542Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T08:42:13.230Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T08:42:13.233Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T08:42:13.234Z] 📋 Routes disponibles:
+[2025-05-19T08:42:13.235Z] GET /health - Vérification de santé du service
+[2025-05-19T08:42:13.236Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T08:42:13.236Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T08:42:13.237Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T08:42:13.237Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T08:42:13.238Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T08:42:13.239Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T08:42:13.240Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T12:22:27.031Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T12:22:27.033Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T12:22:27.034Z] 📋 Routes disponibles:
+[2025-05-19T12:22:27.034Z] GET /health - Vérification de santé du service
+[2025-05-19T12:22:27.035Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T12:22:27.035Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T12:22:27.036Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T12:22:27.036Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T12:22:27.036Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T12:22:27.037Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T12:22:27.037Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T12:47:06.655Z] 📥 GET /health - Corps: 
+[2025-05-19T12:47:06.656Z] 🔍 Vérification de santé du service
+[2025-05-19T12:47:06.657Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T12:47:06.656Z"}
+[2025-05-19T12:48:16.773Z] 📥 GET /health - Corps: 
+[2025-05-19T12:48:16.777Z] 🔍 Vérification de santé du service
+[2025-05-19T12:48:16.780Z] 📤 GET /health - 200 (7ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T12:48:16.780Z"}
+[2025-05-19T12:48:16.793Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T12:48:18.765Z] 📤 POST /notifications/subscription-notification - 200 (1972ms) - Réponse: {"success":true,"message":"Notification d'abonnement envoyée avec succès"}
+[2025-05-19T12:48:19.362Z] 📥 GET /health - Corps: 
+[2025-05-19T12:48:19.363Z] 🔍 Vérification de santé du service
+[2025-05-19T12:48:19.363Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T12:48:19.363Z"}
+[2025-05-19T12:48:19.366Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T12:48:20.147Z] 📤 POST /notifications/subscription-notification - 200 (781ms) - Réponse: {"success":true,"message":"Notification d'abonnement envoyée avec succès"}
+[2025-05-19T13:20:01.960Z] 📥 GET /health - Corps: 
+[2025-05-19T13:20:01.961Z] 🔍 Vérification de santé du service
+[2025-05-19T13:20:01.962Z] 📤 GET /health - 200 (3ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T13:20:01.962Z"}
+[2025-05-19T13:25:47.632Z] 📥 GET /health - Corps: 
+[2025-05-19T13:25:47.634Z] 🔍 Vérification de santé du service
+[2025-05-19T13:25:47.637Z] 📤 GET /health - 200 (6ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T13:25:47.637Z"}
+[2025-05-19T13:28:17.969Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:28:17.973Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:28:17.973Z] 📋 Routes disponibles:
+[2025-05-19T13:28:17.974Z] GET /health - Vérification de santé du service
+[2025-05-19T13:28:17.975Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:28:17.975Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:28:17.976Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:28:17.976Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:28:17.978Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:28:17.979Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:28:17.980Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:28:19.895Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:28:19.899Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:28:19.900Z] 📋 Routes disponibles:
+[2025-05-19T13:28:19.901Z] GET /health - Vérification de santé du service
+[2025-05-19T13:28:19.901Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:28:19.902Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:28:19.902Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:28:19.905Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:28:19.906Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:28:19.906Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:28:19.907Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:28:20.466Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:28:20.469Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:28:20.469Z] 📋 Routes disponibles:
+[2025-05-19T13:28:20.469Z] GET /health - Vérification de santé du service
+[2025-05-19T13:28:20.470Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:28:20.470Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:28:20.471Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:28:20.471Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:28:20.472Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:28:20.472Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:28:20.473Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:28:48.834Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:28:48.837Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:28:48.838Z] 📋 Routes disponibles:
+[2025-05-19T13:28:48.838Z] GET /health - Vérification de santé du service
+[2025-05-19T13:28:48.841Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:28:48.841Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:28:48.842Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:28:48.842Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:28:48.843Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:28:48.843Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:28:48.844Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:28:48.976Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35ca8cfb8sm12423031f8f.85 - gsmtp
+[2025-05-19T13:31:45.669Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:31:45.671Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:31:45.671Z] 📋 Routes disponibles:
+[2025-05-19T13:31:45.672Z] GET /health - Vérification de santé du service
+[2025-05-19T13:31:45.673Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:31:45.673Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:31:45.673Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:31:45.674Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:31:45.674Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:31:45.675Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:31:45.675Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:31:45.832Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442fd583e84sm136662425e9.25 - gsmtp
+[2025-05-19T13:32:49.603Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:32:49.607Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:32:49.607Z] 📋 Routes disponibles:
+[2025-05-19T13:32:49.608Z] GET /health - Vérification de santé du service
+[2025-05-19T13:32:49.608Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:32:49.609Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:32:49.609Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:32:49.610Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:32:49.610Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:32:49.611Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:32:49.611Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:32:49.773Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442fd4fdbaesm147771835e9.7 - gsmtp
+[2025-05-19T13:34:21.576Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:34:21.580Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:34:21.580Z] 📋 Routes disponibles:
+[2025-05-19T13:34:21.581Z] GET /health - Vérification de santé du service
+[2025-05-19T13:34:21.581Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:34:21.582Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:34:21.582Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:34:21.583Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:34:21.583Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:34:21.584Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:34:21.584Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:34:21.861Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-44300160fd0sm131888255e9.4 - gsmtp
+[2025-05-19T13:35:00.240Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:35:00.243Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:35:00.244Z] 📋 Routes disponibles:
+[2025-05-19T13:35:00.244Z] GET /health - Vérification de santé du service
+[2025-05-19T13:35:00.245Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:35:00.245Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:35:00.246Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:35:00.247Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:35:00.247Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:35:00.248Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:35:00.249Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:35:00.440Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35fa8c6d6sm12265062f8f.26 - gsmtp
+[2025-05-19T13:39:30.132Z] 📥 GET /health - Corps: 
+[2025-05-19T13:39:30.133Z] 🔍 Vérification de santé du service
+[2025-05-19T13:39:30.134Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T13:39:30.134Z"}
+[2025-05-19T13:39:30.139Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T13:39:30.391Z] 📥 GET /health - Corps: 
+[2025-05-19T13:39:30.392Z] 🔍 Vérification de santé du service
+[2025-05-19T13:39:30.393Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T13:39:30.393Z"}
+[2025-05-19T13:39:30.403Z] 📤 POST /notifications/subscription-notification - 500 (264ms) - Réponse: {"success":false,"message":"No recipients defined"}
+[2025-05-19T13:39:30.404Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T13:39:30.718Z] 📤 POST /notifications/subscription-notification - 500 (314ms) - Réponse: {"success":false,"message":"No recipients defined"}
+[2025-05-19T13:45:20.282Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:45:20.285Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:45:20.286Z] 📋 Routes disponibles:
+[2025-05-19T13:45:20.286Z] GET /health - Vérification de santé du service
+[2025-05-19T13:45:20.288Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:45:20.289Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:45:20.289Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:45:20.289Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:45:20.290Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:45:20.291Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:45:20.291Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:45:20.445Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35ca5a03fsm12779430f8f.22 - gsmtp
+[2025-05-19T13:45:36.014Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:45:36.017Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:45:36.018Z] 📋 Routes disponibles:
+[2025-05-19T13:45:36.019Z] GET /health - Vérification de santé du service
+[2025-05-19T13:45:36.020Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:45:36.021Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:45:36.022Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:45:36.022Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:45:36.023Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:45:36.024Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:45:36.024Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:45:36.266Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35e49262fsm12448275f8f.44 - gsmtp
+[2025-05-19T13:46:07.113Z] 📥 GET /health - Corps: 
+[2025-05-19T13:46:07.115Z] 🔍 Vérification de santé du service
+[2025-05-19T13:46:07.115Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T13:46:07.115Z"}
+[2025-05-19T13:46:19.173Z] 📥 GET /health - Corps: 
+[2025-05-19T13:46:19.174Z] 🔍 Vérification de santé du service
+[2025-05-19T13:46:19.174Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T13:46:19.174Z"}
+[2025-05-19T13:46:38.762Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:46:38.764Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:46:38.765Z] 📋 Routes disponibles:
+[2025-05-19T13:46:38.765Z] GET /health - Vérification de santé du service
+[2025-05-19T13:46:38.766Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:46:38.766Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:46:38.767Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:46:38.767Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:46:38.767Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:46:38.768Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:46:38.768Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:46:38.926Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442f8ab839esm171343415e9.17 - gsmtp
+[2025-05-19T13:46:45.371Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:46:45.374Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:46:45.375Z] 📋 Routes disponibles:
+[2025-05-19T13:46:45.375Z] GET /health - Vérification de santé du service
+[2025-05-19T13:46:45.376Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:46:45.377Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:46:45.377Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:46:45.378Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:46:45.378Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:46:45.378Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:46:45.379Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:46:45.525Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35ca4d1easm12728556f8f.5 - gsmtp
+[2025-05-19T13:48:27.734Z] 📥 GET /health - Corps: 
+[2025-05-19T13:48:27.738Z] 🔍 Vérification de santé du service
+[2025-05-19T13:48:27.740Z] 📤 GET /health - 200 (6ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T13:48:27.740Z"}
+[2025-05-19T13:48:27.768Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T13:48:29.184Z] 📤 POST /notifications/subscription-notification - 200 (1416ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":519,"messageTime":486,"messageSize":680,"response":"250 2.0.0 OK  1747662508 ffacd0b85a97d-3a35ca4d0fasm12990488f8f.8 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<1bc5d1a5-0e5f-6b35-363d-ed7c6e1d30cc@gmail.com>"}}
+[2025-05-19T13:51:04.579Z] 📥 GET /health - Corps: 
+[2025-05-19T13:51:04.579Z] 🔍 Vérification de santé du service
+[2025-05-19T13:51:04.580Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T13:51:04.580Z"}
+[2025-05-19T13:56:30.892Z] 📥 GET /health - Corps: 
+[2025-05-19T13:56:30.893Z] 🔍 Vérification de santé du service
+[2025-05-19T13:56:30.893Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T13:56:30.893Z"}
+[2025-05-19T13:56:41.251Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:56:41.253Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:56:41.254Z] 📋 Routes disponibles:
+[2025-05-19T13:56:41.254Z] GET /health - Vérification de santé du service
+[2025-05-19T13:56:41.255Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:56:41.256Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:56:41.256Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:56:41.257Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:56:41.257Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:56:41.258Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:56:41.258Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:56:41.402Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35ca889d9sm12948827f8f.77 - gsmtp
+[2025-05-19T13:57:05.354Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T13:57:05.359Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T13:57:05.359Z] 📋 Routes disponibles:
+[2025-05-19T13:57:05.360Z] GET /health - Vérification de santé du service
+[2025-05-19T13:57:05.361Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T13:57:05.362Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T13:57:05.362Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T13:57:05.363Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T13:57:05.363Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T13:57:05.364Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T13:57:05.364Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T13:57:05.500Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442f33691fdsm219720135e9.5 - gsmtp
+[2025-05-19T13:58:28.200Z] 📥 GET /health - Corps: 
+[2025-05-19T13:58:28.202Z] 🔍 Vérification de santé du service
+[2025-05-19T13:58:28.203Z] 📤 GET /health - 200 (3ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T13:58:28.202Z"}
+[2025-05-19T13:58:28.207Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T13:58:29.355Z] 📤 POST /notifications/subscription-notification - 200 (1148ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":160,"messageTime":716,"messageSize":680,"response":"250 2.0.0 OK  1747663108 ffacd0b85a97d-3a35ca8ce9asm12820520f8f.86 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<4e116938-7fca-b5e0-573a-62a91a320134@gmail.com>"}}
+[2025-05-19T14:01:27.693Z] 📥 GET /health - Corps: 
+[2025-05-19T14:01:27.694Z] 🔍 Vérification de santé du service
+[2025-05-19T14:01:27.695Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:01:27.695Z"}
+[2025-05-19T14:01:45.063Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:01:45.069Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:01:45.069Z] 📋 Routes disponibles:
+[2025-05-19T14:01:45.070Z] GET /health - Vérification de santé du service
+[2025-05-19T14:01:45.071Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:01:45.071Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:01:45.071Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:01:45.072Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:01:45.072Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:01:45.073Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:01:45.073Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:01:46.263Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35ca4d1easm12769348f8f.5 - gsmtp
+[2025-05-19T14:01:54.226Z] 📥 GET /health - Corps: 
+[2025-05-19T14:01:54.228Z] 🔍 Vérification de santé du service
+[2025-05-19T14:01:54.230Z] 📤 GET /health - 200 (4ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:01:54.229Z"}
+[2025-05-19T14:02:15.648Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:02:15.650Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:02:15.651Z] 📋 Routes disponibles:
+[2025-05-19T14:02:15.651Z] GET /health - Vérification de santé du service
+[2025-05-19T14:02:15.652Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:02:15.652Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:02:15.653Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:02:15.653Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:02:15.654Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:02:15.654Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:02:15.655Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:02:16.176Z] 📥 GET /health - Corps: 
+[2025-05-19T14:02:16.177Z] 🔍 Vérification de santé du service
+[2025-05-19T14:02:16.179Z] 📤 GET /health - 200 (3ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:02:16.178Z"}
+[2025-05-19T14:02:16.809Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442fd4fe161sm147839005e9.8 - gsmtp
+[2025-05-19T14:02:20.487Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:02:20.492Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:02:20.493Z] 📋 Routes disponibles:
+[2025-05-19T14:02:20.494Z] GET /health - Vérification de santé du service
+[2025-05-19T14:02:20.499Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:02:20.501Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:02:20.502Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:02:20.503Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:02:20.504Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:02:20.505Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:02:20.506Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:02:21.837Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:02:21.840Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:02:21.840Z] 📋 Routes disponibles:
+[2025-05-19T14:02:21.841Z] GET /health - Vérification de santé du service
+[2025-05-19T14:02:21.843Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:02:21.844Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:02:21.845Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:02:21.845Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:02:21.845Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:02:21.846Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:02:21.846Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:02:22.973Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442fd50b9a7sm144675435e9.10 - gsmtp
+[2025-05-19T14:02:33.998Z] 📥 GET /health - Corps: 
+[2025-05-19T14:02:34.000Z] 🔍 Vérification de santé du service
+[2025-05-19T14:02:34.000Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:02:34.000Z"}
+[2025-05-19T14:03:26.357Z] 📥 GET /health - Corps: 
+[2025-05-19T14:03:26.359Z] 🔍 Vérification de santé du service
+[2025-05-19T14:03:26.361Z] 📤 GET /health - 200 (4ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:03:26.361Z"}
+[2025-05-19T14:03:26.367Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T14:03:26.443Z] 📥 GET /health - Corps: 
+[2025-05-19T14:03:26.446Z] 🔍 Vérification de santé du service
+[2025-05-19T14:03:26.448Z] 📤 GET /health - 200 (5ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:03:26.448Z"}
+[2025-05-19T14:03:26.461Z] 📥 POST /notifications/subscription/start - Corps: undefined
+[2025-05-19T14:03:26.926Z] 📤 POST /notifications/subscription/start - 500 (465ms) - Réponse: {"success":false,"message":"No recipients defined"}
+[2025-05-19T14:03:28.227Z] 📤 POST /notifications/subscription-notification - 200 (1860ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":426,"messageTime":1075,"messageSize":680,"response":"250 2.0.0 OK  1747663407 ffacd0b85a97d-3a362b4e2e1sm11590177f8f.96 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<4c38dfe8-aaa9-9c0f-7ced-5a32e9764bd1@gmail.com>"}}
+[2025-05-19T14:14:25.167Z] 📥 GET /health - Corps: 
+[2025-05-19T14:14:25.168Z] 🔍 Vérification de santé du service
+[2025-05-19T14:14:25.169Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:14:25.168Z"}
+[2025-05-19T14:14:37.270Z] 📥 GET /health - Corps: 
+[2025-05-19T14:14:37.270Z] 🔍 Vérification de santé du service
+[2025-05-19T14:14:37.271Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:14:37.271Z"}
+[2025-05-19T14:15:01.500Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:15:01.504Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:15:01.504Z] 📋 Routes disponibles:
+[2025-05-19T14:15:01.505Z] GET /health - Vérification de santé du service
+[2025-05-19T14:15:01.507Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:15:01.508Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:15:01.509Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:15:01.509Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:15:01.509Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:15:01.510Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:15:01.510Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:15:01.668Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442eb85a3b1sm147809545e9.0 - gsmtp
+[2025-05-19T14:15:16.981Z] 📥 GET /health - Corps: 
+[2025-05-19T14:15:16.982Z] 🔍 Vérification de santé du service
+[2025-05-19T14:15:16.983Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:15:16.983Z"}
+[2025-05-19T14:15:25.568Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:15:25.574Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:15:25.575Z] 📋 Routes disponibles:
+[2025-05-19T14:15:25.576Z] GET /health - Vérification de santé du service
+[2025-05-19T14:15:25.579Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:15:25.580Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:15:25.581Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:15:25.581Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:15:25.582Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:15:25.583Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:15:25.585Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:15:25.735Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a3699a9bf3sm7901936f8f.54 - gsmtp
+[2025-05-19T14:15:37.565Z] 📥 GET /health - Corps: 
+[2025-05-19T14:15:37.566Z] 🔍 Vérification de santé du service
+[2025-05-19T14:15:37.567Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:15:37.567Z"}
+[2025-05-19T14:15:48.488Z] 📥 GET /health - Corps: 
+[2025-05-19T14:15:48.489Z] 🔍 Vérification de santé du service
+[2025-05-19T14:15:48.489Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:15:48.489Z"}
+[2025-05-19T14:16:40.378Z] 📥 GET /health - Corps: 
+[2025-05-19T14:16:40.380Z] 🔍 Vérification de santé du service
+[2025-05-19T14:16:40.381Z] 📤 GET /health - 200 (3ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:16:40.381Z"}
+[2025-05-19T14:17:08.376Z] 📥 GET /health - Corps: 
+[2025-05-19T14:17:08.377Z] 🔍 Vérification de santé du service
+[2025-05-19T14:17:08.378Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:17:08.378Z"}
+[2025-05-19T14:18:18.760Z] 📥 GET /health - Corps: 
+[2025-05-19T14:18:18.761Z] 🔍 Vérification de santé du service
+[2025-05-19T14:18:18.761Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:18:18.761Z"}
+[2025-05-19T14:18:18.765Z] 📥 POST /notifications/subscription/start - Corps: undefined
+[2025-05-19T14:18:18.970Z] 📥 GET /health - Corps: 
+[2025-05-19T14:18:18.972Z] 🔍 Vérification de santé du service
+[2025-05-19T14:18:18.973Z] 📤 GET /health - 200 (3ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:18:18.973Z"}
+[2025-05-19T14:18:18.978Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T14:18:19.689Z] 📤 POST /notifications/subscription/start - 200 (924ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":158,"messageTime":479,"messageSize":1185,"response":"250 2.0.0 OK  1747664298 ffacd0b85a97d-3a35ca8874bsm13153448f8f.67 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<cdba0f46-c43b-0462-254f-a2aaf360b15c@gmail.com>"}}
+[2025-05-19T14:18:20.052Z] 📤 POST /notifications/subscription-notification - 200 (1074ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":363,"messageTime":455,"messageSize":680,"response":"250 2.0.0 OK  1747664299 5b1f17b1804b1-442fd583f3dsm141306575e9.30 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<4e02281a-d33c-bbee-c05c-9b140b65f5db@gmail.com>"}}
+[2025-05-19T14:22:41.400Z] 📥 GET /health - Corps: 
+[2025-05-19T14:22:41.401Z] 🔍 Vérification de santé du service
+[2025-05-19T14:22:41.402Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:22:41.402Z"}
+[2025-05-19T14:22:50.702Z] 📥 GET /health - Corps: 
+[2025-05-19T14:22:50.703Z] 🔍 Vérification de santé du service
+[2025-05-19T14:22:50.703Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:22:50.703Z"}
+[2025-05-19T14:22:55.860Z] 📥 GET /health - Corps: 
+[2025-05-19T14:22:55.861Z] 🔍 Vérification de santé du service
+[2025-05-19T14:22:55.862Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:22:55.862Z"}
+[2025-05-19T14:23:18.201Z] 📥 GET /health - Corps: 
+[2025-05-19T14:23:18.202Z] 🔍 Vérification de santé du service
+[2025-05-19T14:23:18.202Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:23:18.202Z"}
+[2025-05-19T14:23:56.510Z] 📥 GET /health - Corps: 
+[2025-05-19T14:23:56.512Z] 🔍 Vérification de santé du service
+[2025-05-19T14:23:56.513Z] 📤 GET /health - 200 (3ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:23:56.513Z"}
+[2025-05-19T14:24:02.673Z] 📥 GET /health - Corps: 
+[2025-05-19T14:24:02.674Z] 🔍 Vérification de santé du service
+[2025-05-19T14:24:02.674Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:24:02.674Z"}
+[2025-05-19T14:24:07.671Z] 📥 GET /health - Corps: 
+[2025-05-19T14:24:07.672Z] 🔍 Vérification de santé du service
+[2025-05-19T14:24:07.672Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:24:07.672Z"}
+[2025-05-19T14:24:57.544Z] 📥 GET /health - Corps: 
+[2025-05-19T14:24:57.546Z] 🔍 Vérification de santé du service
+[2025-05-19T14:24:57.547Z] 📤 GET /health - 200 (3ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:24:57.547Z"}
+[2025-05-19T14:24:57.549Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T14:24:57.737Z] 📥 GET /health - Corps: 
+[2025-05-19T14:24:57.739Z] 🔍 Vérification de santé du service
+[2025-05-19T14:24:57.739Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:24:57.739Z"}
+[2025-05-19T14:24:57.743Z] 📥 POST /notifications/subscription/start - Corps: undefined
+[2025-05-19T14:24:58.600Z] 📤 POST /notifications/subscription-notification - 200 (1051ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":169,"messageTime":593,"messageSize":680,"response":"250 2.0.0 OK  1747664697 ffacd0b85a97d-3a35ca88990sm13301822f8f.68 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<a70591e5-04b7-4e22-2b2a-815489662de1@gmail.com>"}}
+[2025-05-19T14:24:58.916Z] 📤 POST /notifications/subscription/start - 200 (1173ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":469,"messageTime":455,"messageSize":1185,"response":"250 2.0.0 OK  1747664698 ffacd0b85a97d-3a35ca5a87fsm12771542f8f.29 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<4fedecfc-d5fa-3cd1-365f-c1cb8400926a@gmail.com>"}}
+[2025-05-19T14:27:57.228Z] 📥 GET /health - Corps: 
+[2025-05-19T14:27:57.229Z] 🔍 Vérification de santé du service
+[2025-05-19T14:27:57.229Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:27:57.229Z"}
+[2025-05-19T14:28:11.814Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:28:11.818Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:28:11.819Z] 📋 Routes disponibles:
+[2025-05-19T14:28:11.820Z] GET /health - Vérification de santé du service
+[2025-05-19T14:28:11.824Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:28:11.825Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:28:11.826Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:28:11.827Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:28:11.827Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:28:11.828Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:28:11.829Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:28:11.998Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442fd59ab21sm136579285e9.38 - gsmtp
+[2025-05-19T14:28:24.220Z] 📥 GET /health - Corps: 
+[2025-05-19T14:28:24.221Z] 🔍 Vérification de santé du service
+[2025-05-19T14:28:24.222Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:28:24.222Z"}
+[2025-05-19T14:28:25.471Z] 📥 GET /health - Corps: 
+[2025-05-19T14:28:25.472Z] 🔍 Vérification de santé du service
+[2025-05-19T14:28:25.473Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:28:25.473Z"}
+[2025-05-19T14:28:36.752Z] 📥 GET /health - Corps: 
+[2025-05-19T14:28:36.753Z] 🔍 Vérification de santé du service
+[2025-05-19T14:28:36.753Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:28:36.753Z"}
+[2025-05-19T14:28:39.697Z] 📥 GET /health - Corps: 
+[2025-05-19T14:28:39.698Z] 🔍 Vérification de santé du service
+[2025-05-19T14:28:39.699Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:28:39.699Z"}
+[2025-05-19T14:28:54.091Z] 📥 GET /health - Corps: 
+[2025-05-19T14:28:54.092Z] 🔍 Vérification de santé du service
+[2025-05-19T14:28:54.094Z] 📤 GET /health - 200 (3ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:28:54.093Z"}
+[2025-05-19T14:29:11.242Z] 📥 GET /health - Corps: 
+[2025-05-19T14:29:11.242Z] 🔍 Vérification de santé du service
+[2025-05-19T14:29:11.243Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:29:11.243Z"}
+[2025-05-19T14:30:10.358Z] 📥 GET /health - Corps: 
+[2025-05-19T14:30:10.359Z] 🔍 Vérification de santé du service
+[2025-05-19T14:30:10.359Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:30:10.359Z"}
+[2025-05-19T14:30:14.967Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:30:14.971Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:30:14.972Z] 📋 Routes disponibles:
+[2025-05-19T14:30:14.972Z] GET /health - Vérification de santé du service
+[2025-05-19T14:30:14.973Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:30:14.974Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:30:14.974Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:30:14.975Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:30:14.976Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:30:14.976Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:30:14.977Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:30:15.108Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35ca88a34sm12880922f8f.70 - gsmtp
+[2025-05-19T14:31:02.904Z] 📥 GET /health - Corps: 
+[2025-05-19T14:31:02.908Z] 🔍 Vérification de santé du service
+[2025-05-19T14:31:02.915Z] 📤 GET /health - 200 (11ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:31:02.913Z"}
+[2025-05-19T14:31:02.948Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T14:31:03.127Z] 📥 GET /health - Corps: 
+[2025-05-19T14:31:03.128Z] 🔍 Vérification de santé du service
+[2025-05-19T14:31:03.129Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:31:03.129Z"}
+[2025-05-19T14:31:03.132Z] 📥 POST /notifications/subscription/start - Corps: undefined
+[2025-05-19T14:31:04.086Z] 📤 POST /notifications/subscription-notification - 200 (1138ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":170,"messageTime":644,"messageSize":680,"response":"250 2.0.0 OK  1747665063 ffacd0b85a97d-3a35ca5a5b4sm12864756f8f.21 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<9def4087-dc84-4360-bed1-00bd1ec1fd42@gmail.com>"}}
+[2025-05-19T14:31:04.611Z] 📤 POST /notifications/subscription/start - 200 (1479ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":208,"messageTime":1003,"messageSize":1185,"response":"250 2.0.0 OK  1747665063 ffacd0b85a97d-3a35ca5a87fsm12787841f8f.29 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<652880bc-ea62-e0f6-80c0-c6be41f8da3f@gmail.com>"}}
+[2025-05-19T14:33:21.358Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:33:21.362Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:33:21.362Z] 📋 Routes disponibles:
+[2025-05-19T14:33:21.363Z] GET /health - Vérification de santé du service
+[2025-05-19T14:33:21.364Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:33:21.364Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:33:21.365Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:33:21.365Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:33:21.365Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:33:21.366Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:33:21.366Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:33:21.500Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442fa3e2ce5sm160959145e9.13 - gsmtp
+[2025-05-19T14:34:08.019Z] 📥 GET /health - Corps: 
+[2025-05-19T14:34:08.023Z] 🔍 Vérification de santé du service
+[2025-05-19T14:34:08.024Z] 📤 GET /health - 200 (5ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:34:08.024Z"}
+[2025-05-19T14:34:08.031Z] 📥 POST /notifications/subscription/start - Corps: undefined
+[2025-05-19T14:34:08.115Z] 📥 GET /health - Corps: 
+[2025-05-19T14:34:08.117Z] 🔍 Vérification de santé du service
+[2025-05-19T14:34:08.120Z] 📤 GET /health - 200 (5ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:34:08.120Z"}
+[2025-05-19T14:34:08.140Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T14:34:09.386Z] 📤 POST /notifications/subscription-notification - 200 (1246ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":156,"messageTime":721,"messageSize":680,"response":"250 2.0.0 OK  1747665248 ffacd0b85a97d-3a35ca88978sm13319285f8f.65 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<88d7f4c6-df7e-c99f-6e05-0c94ca8f4562@gmail.com>"}}
+[2025-05-19T14:34:09.724Z] 📤 POST /notifications/subscription/start - 200 (1693ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":158,"messageTime":1111,"messageSize":1185,"response":"250 2.0.0 OK  1747665248 5b1f17b1804b1-442f338070csm211062385e9.15 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<68325464-ea2b-7466-3022-60ecbb1720b4@gmail.com>"}}
+[2025-05-19T14:34:58.831Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:34:58.834Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:34:58.834Z] 📋 Routes disponibles:
+[2025-05-19T14:34:58.835Z] GET /health - Vérification de santé du service
+[2025-05-19T14:34:58.837Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:34:58.837Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:34:58.838Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:34:58.838Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:34:58.839Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:34:58.839Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:34:58.840Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:34:59.004Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a36c6eeaf8sm5589321f8f.48 - gsmtp
+[2025-05-19T14:35:43.068Z] 📥 GET /health - Corps: 
+[2025-05-19T14:35:43.077Z] 🔍 Vérification de santé du service
+[2025-05-19T14:35:43.084Z] 📤 GET /health - 200 (16ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:35:43.081Z"}
+[2025-05-19T14:35:43.109Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T14:35:43.575Z] 📥 GET /health - Corps: 
+[2025-05-19T14:35:43.576Z] 🔍 Vérification de santé du service
+[2025-05-19T14:35:43.577Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:35:43.576Z"}
+[2025-05-19T14:35:43.579Z] 📥 POST /notifications/subscription/start - Corps: undefined
+[2025-05-19T14:35:44.192Z] 📤 POST /notifications/subscription-notification - 200 (1083ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":160,"messageTime":558,"messageSize":247,"response":"250 2.0.0 OK  1747665343 ffacd0b85a97d-3a368136014sm8788841f8f.92 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<81b371e8-0753-3c20-60f3-66907e9e9379@gmail.com>"}}
+[2025-05-19T14:35:44.830Z] 📤 POST /notifications/subscription/start - 200 (1251ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":235,"messageTime":735,"messageSize":1185,"response":"250 2.0.0 OK  1747665344 5b1f17b1804b1-442fd4fdc73sm148989635e9.2 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<6b95ba52-9b0e-70b5-8d53-5db252d785a3@gmail.com>"}}
+[2025-05-19T14:40:12.353Z] 📥 GET /health - Corps: 
+[2025-05-19T14:40:12.353Z] 🔍 Vérification de santé du service
+[2025-05-19T14:40:12.354Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:40:12.354Z"}
+[2025-05-19T14:40:27.736Z] 📥 GET /health - Corps: 
+[2025-05-19T14:40:27.736Z] 🔍 Vérification de santé du service
+[2025-05-19T14:40:27.737Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:40:27.737Z"}
+[2025-05-19T14:40:47.214Z] 📥 GET /health - Corps: 
+[2025-05-19T14:40:47.216Z] 🔍 Vérification de santé du service
+[2025-05-19T14:40:47.218Z] 📤 GET /health - 200 (4ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:40:47.218Z"}
+[2025-05-19T14:44:14.326Z] 📥 GET /health - Corps: 
+[2025-05-19T14:44:14.326Z] 🔍 Vérification de santé du service
+[2025-05-19T14:44:14.327Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:44:14.327Z"}
+[2025-05-19T14:45:07.412Z] 📥 GET /health - Corps: 
+[2025-05-19T14:45:07.413Z] 🔍 Vérification de santé du service
+[2025-05-19T14:45:07.415Z] 📤 GET /health - 200 (3ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:45:07.415Z"}
+[2025-05-19T14:45:07.419Z] 📥 POST /notifications/subscription/start - Corps: undefined
+[2025-05-19T14:45:07.551Z] 📥 GET /health - Corps: 
+[2025-05-19T14:45:07.557Z] 🔍 Vérification de santé du service
+[2025-05-19T14:45:07.561Z] 📤 GET /health - 200 (10ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:45:07.560Z"}
+[2025-05-19T14:45:07.583Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-19T14:45:08.668Z] 📤 POST /notifications/subscription/start - 200 (1249ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":192,"messageTime":628,"messageSize":1185,"response":"250 2.0.0 OK  1747665907 ffacd0b85a97d-3a35ca5a03fsm12941029f8f.22 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<f2c24edd-eb3a-7c9a-060a-986fa3e8ca1a@gmail.com>"}}
+[2025-05-19T14:45:08.896Z] 📤 POST /notifications/subscription-notification - 200 (1313ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès","info":{"accepted":["kylliangrollemund@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","SMTPUTF8"],"envelopeTime":177,"messageTime":788,"messageSize":247,"response":"250 2.0.0 OK  1747665908 ffacd0b85a97d-3a362b4e2e1sm11712815f8f.96 - gsmtp","envelope":{"from":"kyllian.grollemund@gmail.com","to":["kylliangrollemund@gmail.com"]},"messageId":"<d63ac1ef-b47d-d7ac-9c67-e3a26ae838d7@gmail.com>"}}
+[2025-05-19T14:49:04.136Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:49:04.140Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:49:04.140Z] 📋 Routes disponibles:
+[2025-05-19T14:49:04.141Z] GET /health - Vérification de santé du service
+[2025-05-19T14:49:04.144Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:49:04.145Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:49:04.145Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:49:04.146Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:49:04.146Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:49:04.147Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:49:04.147Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:49:04.328Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442eb8c92d9sm121988415e9.2 - gsmtp
+[2025-05-19T14:49:43.655Z] 📥 GET /health - Corps: 
+[2025-05-19T14:49:43.656Z] 🔍 Vérification de santé du service
+[2025-05-19T14:49:43.657Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:49:43.657Z"}
+[2025-05-19T14:50:41.939Z] 📥 GET /health - Corps: 
+[2025-05-19T14:50:41.940Z] 🔍 Vérification de santé du service
+[2025-05-19T14:50:41.940Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-19T14:50:41.940Z"}
+[2025-05-19T14:51:34.343Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:51:34.346Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:51:34.347Z] 📋 Routes disponibles:
+[2025-05-19T14:51:34.347Z] GET /health - Vérification de santé du service
+[2025-05-19T14:51:34.348Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:51:34.349Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:51:34.350Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:51:34.350Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:51:34.351Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:51:34.352Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:51:34.354Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:51:34.500Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a3648baa6asm10664638f8f.91 - gsmtp
+[2025-05-19T14:56:41.339Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:56:41.342Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:56:41.343Z] 📋 Routes disponibles:
+[2025-05-19T14:56:41.343Z] GET /health - Vérification de santé du service
+[2025-05-19T14:56:41.344Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:56:41.344Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:56:41.345Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:56:41.345Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:56:41.346Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:56:41.347Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:56:41.349Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:56:41.499Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35ca8896dsm12980937f8f.73 - gsmtp
+[2025-05-19T14:56:43.331Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:56:43.334Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:56:43.334Z] 📋 Routes disponibles:
+[2025-05-19T14:56:43.335Z] GET /health - Vérification de santé du service
+[2025-05-19T14:56:43.335Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:56:43.336Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:56:43.336Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:56:43.336Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:56:43.337Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:56:43.337Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:56:43.338Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:56:43.470Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442fd594707sm145736245e9.33 - gsmtp
+[2025-05-19T14:57:31.646Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:57:31.656Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:57:31.657Z] 📋 Routes disponibles:
+[2025-05-19T14:57:31.658Z] GET /health - Vérification de santé du service
+[2025-05-19T14:57:31.665Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:57:31.667Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:57:31.668Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:57:31.669Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:57:31.670Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:57:31.671Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:57:31.672Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:57:31.827Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35ca8caaasm12925304f8f.83 - gsmtp
+[2025-05-19T14:57:34.439Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:57:34.448Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:57:34.449Z] 📋 Routes disponibles:
+[2025-05-19T14:57:34.450Z] GET /health - Vérification de santé du service
+[2025-05-19T14:57:34.455Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:57:34.458Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:57:34.461Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:57:34.463Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:57:34.465Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:57:34.467Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:57:34.470Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:57:34.648Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442fd583e84sm139151045e9.25 - gsmtp
+[2025-05-19T14:57:35.059Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:57:35.062Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:57:35.063Z] 📋 Routes disponibles:
+[2025-05-19T14:57:35.064Z] GET /health - Vérification de santé du service
+[2025-05-19T14:57:35.064Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:57:35.065Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:57:35.065Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:57:35.066Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:57:35.067Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:57:35.067Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:57:35.068Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:57:35.276Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442fd59ab21sm137386795e9.38 - gsmtp
+[2025-05-19T14:57:50.711Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:57:50.719Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:57:50.721Z] 📋 Routes disponibles:
+[2025-05-19T14:57:50.721Z] GET /health - Vérification de santé du service
+[2025-05-19T14:57:50.726Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:57:50.727Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:57:50.729Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:57:50.731Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:57:50.732Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:57:50.733Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:57:50.735Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:57:50.898Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35ca8caf0sm12927465f8f.82 - gsmtp
+[2025-05-19T14:57:52.559Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:57:52.562Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:57:52.562Z] 📋 Routes disponibles:
+[2025-05-19T14:57:52.563Z] GET /health - Vérification de santé du service
+[2025-05-19T14:57:52.563Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:57:52.564Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:57:52.564Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:57:52.565Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:57:52.565Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:57:52.566Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:57:52.566Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:57:52.675Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a369140048sm8516412f8f.57 - gsmtp
+[2025-05-19T14:58:23.187Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:58:23.192Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:58:23.192Z] 📋 Routes disponibles:
+[2025-05-19T14:58:23.193Z] GET /health - Vérification de santé du service
+[2025-05-19T14:58:23.193Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:58:23.194Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:58:23.195Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:58:23.195Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:58:23.195Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:58:23.211Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:58:23.213Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:58:23.389Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35ca88941sm13325936f8f.61 - gsmtp
+[2025-05-19T14:58:25.133Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:58:25.144Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:58:25.145Z] 📋 Routes disponibles:
+[2025-05-19T14:58:25.145Z] GET /health - Vérification de santé du service
+[2025-05-19T14:58:25.148Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:58:25.150Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:58:25.152Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:58:25.153Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:58:25.155Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:58:25.156Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:58:25.158Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:58:25.302Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442fd59708esm139906135e9.37 - gsmtp
+[2025-05-19T14:58:39.433Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:58:39.436Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:58:39.437Z] 📋 Routes disponibles:
+[2025-05-19T14:58:39.438Z] GET /health - Vérification de santé du service
+[2025-05-19T14:58:39.441Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:58:39.442Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:58:39.443Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:58:39.443Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:58:39.444Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:58:39.445Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:58:39.446Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:58:39.585Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3a35fa8c6d6sm12511216f8f.26 - gsmtp
+[2025-05-19T14:59:19.582Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-19T14:59:19.584Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-19T14:59:19.585Z] 📋 Routes disponibles:
+[2025-05-19T14:59:19.585Z] GET /health - Vérification de santé du service
+[2025-05-19T14:59:19.586Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-19T14:59:19.587Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-19T14:59:19.587Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-19T14:59:19.588Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-19T14:59:19.589Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-19T14:59:19.589Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-19T14:59:19.590Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-19T14:59:19.731Z] ⚠️ Impossible de se connecter au serveur SMTP: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-442fd515bb5sm139558125e9.23 - gsmtp

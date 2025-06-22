@@ -1,0 +1,371 @@
+{
+  "timestamp": "2025-06-22T17:11:12.179Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "your_twilio_phone_number",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T17:49:02.409Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "your_twilio_phone_number",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T17:58:29.863Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "your_twilio_phone_number",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:14:40.625Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:30:21.355Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:30:43.039Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:31:17.557Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:32:05.723Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:33:08.423Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:33:09.646Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:34:34.230Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:35:15.255Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:35:24.189Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:35:31.920Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:37:21.708Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:37:23.893Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:45:25.178Z",
+  "action": "SEND_SMS_START",
+  "to": "+33651727686",
+  "bodyPreview": "Votre code de réinitialisation de mot de passe pou..."
+}
+---
+{
+  "timestamp": "2025-06-22T18:45:25.178Z",
+  "action": "SEND_SMS_ATTEMPT",
+  "from": "+16138018606",
+  "to": "+33651727686"
+}
+---
+{
+  "timestamp": "2025-06-22T18:45:25.536Z",
+  "action": "SEND_SMS_ERROR",
+  "to": "+33651727686",
+  "error": "The number +3365172XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +3365172XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers",
+  "stack": "Error: The number +3365172XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +3365172XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers\n    at success (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\twilio\\lib\\base\\Version.js:79:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.sendSms (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:346:25)\n    at async sendPasswordResetSms (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\authController.js:121:20)",
+  "code": 21608
+}
+---
+{
+  "timestamp": "2025-06-22T18:49:27.431Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:54:41.132Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T19:04:01.577Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC818...",
+  "phoneNumber": "+16138018606",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T19:56:58.802Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC0fd...",
+  "phoneNumber": "+16137042192",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T19:57:20.771Z",
+  "action": "SMS_CONFIG",
+  "accountSid": "AC0fd...",
+  "phoneNumber": "+16137042192",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:20:07.004Z",
+  "action": "TWILIO_CONFIG",
+  "accountSid": "AC0fd...",
+  "phoneNumber": "+16137042192",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:20:21.312Z",
+  "action": "TWILIO_CONFIG",
+  "accountSid": "AC0fd...",
+  "phoneNumber": "+16137042192",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:21:37.841Z",
+  "action": "TWILIO_CONFIG",
+  "accountSid": "AC0fd...",
+  "phoneNumber": "+16137042192",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:03.177Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "Cannot read properties of undefined (reading 'instance')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'instance')\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:163:45)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:07.362Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "Cannot read properties of undefined (reading 'instance')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'instance')\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:163:45)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:22.378Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "Cannot read properties of undefined (reading 'instance')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'instance')\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:164:45)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:31.795Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "Cannot read properties of undefined (reading 'instance')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'instance')\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:165:45)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:36.024Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "Cannot read properties of undefined (reading 'instance')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'instance')\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:164:45)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:35:50.960Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "Cannot read properties of undefined (reading 'instance')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'instance')\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:161:45)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:36:01.653Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "Cannot read properties of undefined (reading 'instance')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'instance')\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:163:45)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:36:02.980Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "Cannot read properties of undefined (reading 'instance')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'instance')\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:162:45)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:36:24.239Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "Cannot read properties of undefined (reading 'instance')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'instance')\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:162:45)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:41:07.702Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "Cannot read properties of undefined (reading 'instance')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'instance')\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:162:45)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:43:19.583Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "Cannot read properties of undefined (reading 'instance')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'instance')\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:163:53)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:43:32.325Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "Cannot read properties of undefined (reading 'instance')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'instance')\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:163:53)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:43:46.180Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "SibApiV3Sdk.ApiClient non disponible - problème d'import",
+  "stack": "Error: SibApiV3Sdk.ApiClient non disponible - problème d'import\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:168:19)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:43:55.018Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "SibApiV3Sdk.ApiClient non disponible - problème d'import",
+  "stack": "Error: SibApiV3Sdk.ApiClient non disponible - problème d'import\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:168:19)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:44:09.358Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "SibApiV3Sdk.ApiClient non disponible - problème d'import",
+  "stack": "Error: SibApiV3Sdk.ApiClient non disponible - problème d'import\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:168:19)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:44:11.154Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "SibApiV3Sdk.ApiClient non disponible - problème d'import",
+  "stack": "Error: SibApiV3Sdk.ApiClient non disponible - problème d'import\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:168:19)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:44:19.552Z",
+  "action": "BREVO_CONFIG_ERROR",
+  "error": "SibApiV3Sdk.ApiClient non disponible - problème d'import",
+  "stack": "Error: SibApiV3Sdk.ApiClient non disponible - problème d'import\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js:168:19)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js:1:29)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)"
+}
+---
+{
+  "timestamp": "2025-06-22T20:49:01.490Z",
+  "action": "BREVO_CONFIG",
+  "configured": true,
+  "provider": "brevo"
+}
+---
+{
+  "timestamp": "2025-06-22T20:49:09.628Z",
+  "action": "SMS_ERROR",
+  "to": "+33651727686",
+  "error": "Cannot find module 'axios'\nRequire stack:\n- C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\notificationService.js\n- C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\controllers\\emailController.js\n- C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\routes\\notificationRoutes.js\n- C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\server.js",
+  "provider": "brevo"
+}
+---
+{
+  "timestamp": "2025-06-22T20:49:36.619Z",
+  "action": "BREVO_CONFIG",
+  "configured": true,
+  "provider": "brevo"
+}
+---
+{
+  "timestamp": "2025-06-22T20:49:43.760Z",
+  "action": "SMS_ERROR",
+  "to": "+33651727686",
+  "error": "Request failed with status code 400",
+  "provider": "brevo"
+}
+---
+{
+  "timestamp": "2025-06-22T20:50:40.908Z",
+  "action": "BREVO_CONFIG",
+  "configured": true,
+  "provider": "brevo"
+}
+---

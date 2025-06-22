@@ -1,0 +1,1455 @@
+{
+  "timestamp": "2025-06-22T14:11:31.083Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T14:11:31.698Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T14:12:16.844Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Vérifiez votre adresse email",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci de vous être inscrit ! Veuillez vérifier votre adresse email en c...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T14:12:16.845Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Vérifiez votre adresse email"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T14:12:17.916Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<e754b210-a803-6728-4c84-971939c6c63c@gmail.com>",
+  "response": "250 2.0.0 OK  1750601536 ffacd0b85a97d-3a6d1190cc3sm7022481f8f.89 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T14:16:45.537Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Vérifiez votre adresse email",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci de vous être inscrit ! Veuillez vérifier votre adresse email en c...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T14:16:45.538Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Vérifiez votre adresse email"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T14:16:46.611Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<4cdf31e8-24c8-469f-ce8f-ae41b135c011@gmail.com>",
+  "response": "250 2.0.0 OK  1750601805 ffacd0b85a97d-3a6d117c02fsm7165998f8f.50 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T14:19:54.699Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Vérifiez votre adresse email",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci de vous être inscrit ! Veuillez vérifier votre adresse email en c...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T14:19:54.700Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Vérifiez votre adresse email"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T14:19:55.800Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<564bf45f-9601-51ef-8877-4d3fbc8a4bed@gmail.com>",
+  "response": "250 2.0.0 OK  1750601994 ffacd0b85a97d-3a6d1193593sm7159461f8f.96 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T14:21:02.665Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Vérifiez votre adresse email",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci de vous être inscrit ! Veuillez vérifier votre adresse email en c...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T14:21:02.667Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Vérifiez votre adresse email"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T14:21:03.737Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<6ff3d40e-2c19-ab46-cc5c-5984989d59d4@gmail.com>",
+  "response": "250 2.0.0 OK  1750602062 5b1f17b1804b1-453646cb57fsm82586525e9.1 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T14:30:39.147Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Vérifiez votre adresse email",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci de vous être inscrit ! Veuillez vérifier votre adresse email en c...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T14:30:39.149Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Vérifiez votre adresse email"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T14:30:40.393Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<37b05463-5b16-dca8-fa42-e9bcad75cf5b@gmail.com>",
+  "response": "250 2.0.0 OK  1750602638 5b1f17b1804b1-4536bdbd9a8sm35468995e9.0 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T14:32:03.929Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Bienvenue sur notre plateforme !",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci d'avoir vérifié votre adresse email ! Votre compte est maintenant...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T14:32:03.930Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Bienvenue sur notre plateforme !"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T14:32:04.963Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<86137159-d2cb-e133-e90b-63e4eb292e3b@gmail.com>",
+  "response": "250 2.0.0 OK  1750602723 5b1f17b1804b1-45364703f1esm81810155e9.32 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T14:45:38.241Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Vérifiez votre adresse email",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci de vous être inscrit ! Veuillez vérifier votre adresse email en c...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T14:45:38.242Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Vérifiez votre adresse email"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T14:45:39.418Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<3c39ad9d-007b-a20d-a9ca-505098640628@gmail.com>",
+  "response": "250 2.0.0 OK  1750603537 5b1f17b1804b1-453646d7d8fsm80843365e9.15 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T14:45:51.034Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Bienvenue sur notre plateforme !",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci d'avoir vérifié votre adresse email ! Votre compte est maintenant...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T14:45:51.035Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Bienvenue sur notre plateforme !"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T14:45:51.845Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<f985ca51-70dd-7288-cd48-9be667bdeef8@gmail.com>",
+  "response": "250 2.0.0 OK  1750603550 5b1f17b1804b1-453646d7d8fsm80843365e9.15 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T14:49:51.054Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Vérifiez votre adresse email",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci de vous être inscrit ! Veuillez vérifier votre adresse email en c...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T14:49:51.056Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Vérifiez votre adresse email"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T14:49:52.098Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<b02812f8-39d1-f191-40e0-35f4a31681c7@gmail.com>",
+  "response": "250 2.0.0 OK  1750603790 5b1f17b1804b1-45361461375sm99137025e9.14 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T14:50:02.716Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Bienvenue sur notre plateforme !",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci d'avoir vérifié votre adresse email ! Votre compte est maintenant...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T14:50:02.718Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Bienvenue sur notre plateforme !"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T14:50:03.387Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<7353b9a9-4019-8ac1-2a76-bfa92a2a009f@gmail.com>",
+  "response": "250 2.0.0 OK  1750603801 5b1f17b1804b1-45361461375sm99137025e9.14 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T15:05:16.747Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Vérifiez votre adresse email",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci de vous être inscrit ! Veuillez vérifier votre adresse email en c...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T15:05:16.748Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Vérifiez votre adresse email"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T15:05:17.765Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<f114f166-cf96-519c-0f87-b390fd19730f@gmail.com>",
+  "response": "250 2.0.0 OK  1750604716 5b1f17b1804b1-453755e7d1dsm697615e9.10 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T15:05:28.453Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Bienvenue sur notre plateforme !",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci d'avoir vérifié votre adresse email ! Votre compte est maintenant...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T15:05:28.463Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Bienvenue sur notre plateforme !"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T15:05:29.191Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<278a7ccf-7244-f541-db74-e69f709486b6@gmail.com>",
+  "response": "250 2.0.0 OK  1750604727 5b1f17b1804b1-453755e7d1dsm697615e9.10 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T15:09:06.715Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Vérifiez votre adresse email",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci de vous être inscrit ! Veuillez vérifier votre adresse email en c...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T15:09:06.716Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Vérifiez votre adresse email"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T15:09:07.702Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<faec471c-7f3f-dc03-70ab-f07fcc04aa8e@gmail.com>",
+  "response": "250 2.0.0 OK  1750604946 5b1f17b1804b1-4535e97a915sm117116185e9.7 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T15:09:18.642Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Bienvenue sur notre plateforme !",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci d'avoir vérifié votre adresse email ! Votre compte est maintenant...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T15:09:18.644Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Bienvenue sur notre plateforme !"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T15:09:19.308Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<4ab92b1d-6f5b-79f6-4914-3b01de05a6d5@gmail.com>",
+  "response": "250 2.0.0 OK  1750604957 5b1f17b1804b1-4535e97a915sm117116185e9.7 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T15:10:43.355Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Vérifiez votre adresse email",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci de vous être inscrit ! Veuillez vérifier votre adresse email en c...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T15:10:43.356Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Vérifiez votre adresse email"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T15:10:44.246Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<fc7ef56b-f52c-625c-a590-88250b842574@gmail.com>",
+  "response": "250 2.0.0 OK  1750605042 5b1f17b1804b1-4535eada7adsm117556195e9.35 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T15:10:52.840Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Bienvenue sur notre plateforme !",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci d'avoir vérifié votre adresse email ! Votre compte est maintenant...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T15:10:52.842Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Bienvenue sur notre plateforme !"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T15:10:53.444Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<57d4b84a-dfd5-9051-e0b2-ede85fc528f0@gmail.com>",
+  "response": "250 2.0.0 OK  1750605051 5b1f17b1804b1-4535eada7adsm117556195e9.35 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T15:14:30.452Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Vérifiez votre adresse email",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci de vous être inscrit ! Veuillez vérifier votre adresse email en c...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T15:14:30.453Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Vérifiez votre adresse email"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T15:14:31.461Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<21be368e-e6b5-dd89-3049-f36f5cd37ab9@gmail.com>",
+  "response": "250 2.0.0 OK  1750605269 5b1f17b1804b1-453596df276sm95272165e9.0 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T15:14:45.498Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Bienvenue sur notre plateforme !",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci d'avoir vérifié votre adresse email ! Votre compte est maintenant...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T15:14:45.500Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Bienvenue sur notre plateforme !"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T15:14:46.156Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<6b951d62-3fd7-83a3-424f-6eee63d0ca2b@gmail.com>",
+  "response": "250 2.0.0 OK  1750605284 5b1f17b1804b1-453596df276sm95272165e9.0 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T15:31:00.582Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Vérifiez votre adresse email",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci de vous être inscrit ! Veuillez vérifier votre adresse email en c...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T15:31:00.583Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Vérifiez votre adresse email"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T15:31:01.584Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<fe288504-91af-6eed-6993-55f6d90f78d7@gmail.com>",
+  "response": "250 2.0.0 OK  1750606259 5b1f17b1804b1-453647084a5sm82814835e9.38 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T15:31:21.506Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Bienvenue sur notre plateforme !",
+  "textPreview": "Bonjour kyllian grollemund,\n\nMerci d'avoir vérifié votre adresse email ! Votre compte est maintenant...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T15:31:21.512Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Bienvenue sur notre plateforme !"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T15:31:22.150Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<0b765320-ccd8-b063-cf66-4564f2f0b394@gmail.com>",
+  "response": "250 2.0.0 OK  1750606280 5b1f17b1804b1-453647084a5sm82814835e9.38 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T16:21:39.232Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Réinitialisation de votre mot de passe",
+  "textPreview": "Bonjour kyllian grollemund,\n\nVous avez demandé une réinitialisation de mot de passe. Cliquez sur le ...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-06-22T16:21:39.234Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Réinitialisation de votre mot de passe"
+  }
+}
+---
+{
+  "timestamp": "2025-06-22T16:21:40.243Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<4025868f-4669-d8a6-1f24-02506465a534@gmail.com>",
+  "response": "250 2.0.0 OK  1750609298 5b1f17b1804b1-453646d14ddsm82676055e9.10 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-06-22T16:28:25.575Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:28:25.890Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T16:28:54.534Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:28:54.828Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T16:29:20.320Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:31:08.586Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:31:28.183Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:31:45.309Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:31:47.680Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:31:54.203Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:35:28.425Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:35:31.268Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:35:39.012Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:35:53.106Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:35:54.787Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:40:25.193Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:40:51.534Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:40:55.399Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:40:57.530Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:41:35.872Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:41:36.169Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T16:41:48.836Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:41:51.537Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:41:51.858Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T16:43:26.550Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:43:26.848Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T16:43:50.558Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T16:43:50.915Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T17:11:12.175Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T17:11:12.520Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T17:49:02.406Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T17:49:02.888Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T17:58:29.860Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T17:58:30.177Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T18:14:40.622Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:14:40.938Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T18:30:21.352Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:30:43.036Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:30:43.383Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T18:31:17.554Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:31:17.876Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T18:32:05.720Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:32:06.025Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T18:33:08.419Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:33:09.644Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:34:34.225Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:35:15.252Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:35:15.620Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T18:35:24.187Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:35:24.472Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T18:35:31.919Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:35:32.217Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T18:37:21.704Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:37:22.023Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T18:37:23.892Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:37:24.205Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T18:49:27.427Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:49:27.755Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T18:54:41.130Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T18:54:41.504Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T19:04:01.575Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T19:04:02.015Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T19:56:58.799Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T19:56:59.179Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T19:57:20.770Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T19:57:21.064Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:09:11.996Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:09:12.312Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:20:07.002Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:20:07.360Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:20:21.309Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:20:21.723Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:21:37.835Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:21:38.234Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:27:10.428Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:27:10.742Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:27:12.920Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:27:13.241Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:27:17.611Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:27:18.007Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:30:02.956Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:30:03.249Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:03.174Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:03.478Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:07.357Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:07.658Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:22.372Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:22.707Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:31.792Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:32.104Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:36.020Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:32:36.316Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:35:50.953Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:35:51.251Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:36:01.645Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:36:01.956Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:36:02.973Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:36:03.351Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:36:24.229Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:36:24.560Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:41:07.698Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:41:08.037Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:43:19.578Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:43:19.896Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:43:32.319Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:43:32.628Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:43:46.172Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:43:46.492Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:43:55.010Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:43:55.315Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:44:09.345Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:44:09.649Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:44:11.145Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:44:11.475Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:44:19.544Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:44:19.939Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:49:01.489Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:49:01.809Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:49:36.617Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:49:36.914Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-06-22T20:50:40.901Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-06-22T20:50:41.273Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
