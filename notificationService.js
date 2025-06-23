@@ -155,7 +155,7 @@ console.log('BREVO_API_KEY:', process.env.BREVO_API_KEY ? 'D√©fini (valeur cach√
 
 let brevoClient = null;
 const SMS_PROVIDER = process.env.SMS_PROVIDER || 'brevo';
-
+    
 // Configuration Brevo
 if (process.env.BREVO_API_KEY) {
     try {

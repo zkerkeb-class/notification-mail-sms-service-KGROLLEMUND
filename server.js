@@ -43,6 +43,17 @@ app.use((req, res, next) => {
 const notificationRoutes = require('./routes/notificationRoutes');
 app.use('/notifications', notificationRoutes);
 
+// Route de santé directe à la racine (pour la compatibilité avec les autres services)
+app.get('/health', (req, res) => {
+  console.log('🏥 Health check demandé sur /health');
+  res.json({ 
+    status: 'OK', 
+    service: 'notification-service',
+    version: '1.0.0',
+    timestamp: new Date().toISOString()
+  });
+});
+
 // Route racine pour la vérification du service
 app.get('/', (req, res) => {
   res.json({
