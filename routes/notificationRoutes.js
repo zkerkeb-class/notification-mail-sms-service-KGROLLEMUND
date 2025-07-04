@@ -27,7 +27,7 @@ router.post('/invoice', invoiceController.sendInvoiceEmail);
 // Routes pour l'authentification
 router.post('/email-verification', authController.sendVerificationEmail);
 router.post('/welcome', authController.sendWelcomeEmail);
-router.post('/password-reset-sms', authController.sendPasswordResetSms);
+router.post('/password-reset-email', emailController.sendPasswordResetEmail);
 router.post('/password-changed', authController.sendPasswordChangedEmail);
 
 // Route de santé pour vérifier que le service fonctionne

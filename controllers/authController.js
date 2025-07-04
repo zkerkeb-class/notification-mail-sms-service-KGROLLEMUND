@@ -93,44 +93,6 @@ N'hésitez pas à nous contacter si vous avez des questions.`;
 };
 
 /**
- * Envoie un SMS avec un code de réinitialisation de mot de passe
- */
-const sendPasswordResetSms = async (req, res) => {
-  try {
-    const { to, name, resetCode } = req.body;
-    
-    if (!to || !resetCode) {
-      return res.status(400).json({ success: false, message: 'Numéro de téléphone et code de réinitialisation requis' });
-    }
-    
-    console.log(`📱 SMS de réinitialisation de mot de passe à ${to}`);
-    
-    // Formater le numéro de téléphone si nécessaire (ajouter +33 pour la France par exemple)
-    let formattedPhone = to;
-    if (!to.startsWith('+')) {
-      // Si le numéro commence par un 0, le remplacer par +33 (pour la France)
-      if (to.startsWith('0')) {
-        formattedPhone = '+33' + to.substring(1);
-      } else {
-        formattedPhone = '+' + to;
-      }
-    }
-    
-    const body = `Votre code de réinitialisation de mot de passe pour QuoteGen est: ${resetCode}. Ce code est valable pendant 15 minutes.`;
-    
-    const result = await notificationService.sendSms({
-      to: formattedPhone,
-      body
-    });
-    
-    res.json({ success: true, message: 'SMS de réinitialisation envoyé avec succès', ...result });
-  } catch (error) {
-    console.error('❌ Erreur lors de l\'envoi du SMS de réinitialisation:', error);
-    res.status(500).json({ success: false, message: error.message });
-  }
-};
-
-/**
  * Envoie un email de confirmation de changement de mot de passe
  */
 const sendPasswordChangedEmail = async (req, res) => {
@@ -174,6 +136,5 @@ Si vous n'avez pas effectué cette modification, veuillez nous contacter immédi
 module.exports = {
   sendVerificationEmail,
   sendWelcomeEmail,
-  sendPasswordResetSms,
   sendPasswordChangedEmail
 }; 

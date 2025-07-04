@@ -17,8 +17,10 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "express-prom-bundle": "^8.0.0",
     "morgan": "^1.10.0",
     "nodemailer": "^6.10.0",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "prom-client": "^15.1.3"
   }
 }
