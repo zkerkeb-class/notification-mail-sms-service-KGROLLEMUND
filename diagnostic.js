@@ -18,10 +18,10 @@ dotenv.config();
 const email = process.argv[2] || 'test@example.com';
 
 // Configuration
+const NOTIFICATION_SERVICE_URL = process.env.NOTIFICATION_SERVICE_URL;
 const PORT = process.env.PORT || 3006;
 const EMAIL_USER = process.env.EMAIL_USER;
 const EMAIL_PASS = process.env.EMAIL_PASS;
-const NOTIFICATION_URL = `http://localhost:${PORT}/notifications`;
 const LOG_DIR = path.join(__dirname, 'logs');
 
 console.log('========== DIAGNOSTIC DU SERVICE DE NOTIFICATION ==========');
@@ -53,7 +53,7 @@ async function checkServiceHealth() {
     console.log('\n----- TEST 2: Vérification du service de notification -----');
     
     try {
-        const response = await axios.get(`http://localhost:${PORT}/health`);
+        const response = await axios.get(`${NOTIFICATION_SERVICE_URL}/health`);
         console.log(`✅ Le service est en ligne`);
         console.log(`📋 Réponse: ${JSON.stringify(response.data)}`);
         return true;
@@ -118,7 +118,7 @@ async function testSendEmail() {
     console.log('\n----- TEST 4: Envoi d\'un email simple -----');
     
     try {
-        const response = await axios.post(`${NOTIFICATION_URL}/send-email`, {
+        const response = await axios.post(`${NOTIFICATION_SERVICE_URL}/send`, {
             to: email,
             subject: 'Test de diagnostic - ' + new Date().toISOString(),
             text: 'Ceci est un email de test envoyé par le script de diagnostic.\n\nHeure: ' + new Date().toISOString()
@@ -141,7 +141,7 @@ async function testSubscriptionNotification() {
     console.log('\n----- TEST 5: Envoi d\'une notification d\'abonnement -----');
     
     try {
-        const response = await axios.post(`${NOTIFICATION_URL}/subscription-notification`, {
+        const response = await axios.post(`${NOTIFICATION_SERVICE_URL}/subscription-notification`, {
             to: email,
             type: 'new',
             data: {
@@ -168,7 +168,7 @@ async function simulatePaymentServiceRequest() {
     
     try {
         // Utiliser le même format que dans stripeService.js
-        const response = await axios.post(`${NOTIFICATION_URL}/subscription-notification`, {
+        const response = await axios.post(`${NOTIFICATION_SERVICE_URL}/subscription-notification`, {
             to: email,
             type: 'new',
             data: { 

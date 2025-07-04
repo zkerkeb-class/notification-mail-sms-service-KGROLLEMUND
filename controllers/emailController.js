@@ -70,7 +70,7 @@ const sendPasswordResetEmail = async (req, res) => {
       });
     }
     
-    const resetUrl = `${process.env.CLIENT_URL || 'http://localhost:3000'}/reset-password?email=${encodeURIComponent(email)}`;
+    const resetUrl = `${process.env.CLIENT_URL}/reset-password?email=${encodeURIComponent(email)}`;
     
     const subject = 'Réinitialisation de votre mot de passe';
     const text = `Bonjour ${name},\n\nVous avez demandé à réinitialiser votre mot de passe. Voici votre code de réinitialisation : ${resetCode}\n\nUtilisez ce code sur la page de réinitialisation de mot de passe : ${resetUrl}\n\nSi vous n'avez pas demandé cette réinitialisation, veuillez ignorer cet email.\n\nCordialement,\nL'équipe`;

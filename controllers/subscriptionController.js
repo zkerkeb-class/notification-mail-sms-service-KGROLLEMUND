@@ -106,6 +106,28 @@ L'équipe de support`,
       <p>Votre abonnement a été réactivé avec succès. Merci de votre confiance!</p>
       <p>Vous bénéficiez à nouveau de tous les avantages premium.</p>
     `
+  },
+
+  // Notification de mise à jour d'abonnement
+  updated: {
+    getSubject: () => 'Votre abonnement a été mis à jour',
+    getText: (data) => 
+      `Bonjour,
+      
+Votre abonnement a été mis à jour.
+Nouveau statut: ${data.newStatus || 'N/A'}
+
+Si vous n'êtes pas à l'origine de cette modification, veuillez contacter notre support.
+
+Cordialement,
+L'équipe`,
+    getHTML: (data) => `
+      <h2>Votre abonnement a été mis à jour</h2>
+      <p>Bonjour,</p>
+      <p>Votre abonnement a été mis à jour avec succès.</p>
+      <p>Nouveau statut: <strong>${data.newStatus || 'N/A'}</strong></p>
+      <p>Si vous n'êtes pas à l'origine de cette modification, veuillez contacter notre support.</p>
+    `
   }
 };
 
@@ -260,6 +282,36 @@ const handleSubscriptionReactivated = async (req, res) => {
 };
 
 /**
+ * Gère la notification de mise à jour d'abonnement
+ */
+const handleSubscriptionUpdated = async (req, res) => {
+  try {
+    const { to, subscriptionId, newStatus } = req.body;
+    
+    if (!to) {
+      return res.status(400).json({ success: false, message: 'Email destinataire requis' });
+    }
+    
+    console.log(`📧 Notification de mise à jour d'abonnement à ${to}`);
+    
+    const template = subscriptionTemplates.updated;
+    const emailData = { newStatus };
+    
+    const result = await notificationService.sendEmail({
+      to: to,
+      subject: template.getSubject(),
+      text: template.getText(emailData),
+      html: template.getHTML(emailData)
+    });
+    
+    res.json({ success: true, message: "Notification de mise à jour envoyée avec succès", ...result });
+  } catch (error) {
+    console.error('❌ Erreur lors de l\'envoi de la notification de mise à jour:', error);
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
+
+/**
  * Fonction polyvalente pour gérer toutes les notifications d'abonnement
  */
 const handleGenericSubscriptionNotification = async (req, res) => {
@@ -326,5 +378,6 @@ module.exports = {
   handlePaymentFailed,
   handleSubscriptionExpiring,
   handleSubscriptionReactivated,
+  handleSubscriptionUpdated,
   handleGenericSubscriptionNotification
 }; 

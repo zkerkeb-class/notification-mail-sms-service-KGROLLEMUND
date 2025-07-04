@@ -17,6 +17,7 @@ router.post('/subscription/cancelled', subscriptionController.handleSubscription
 router.post('/subscription/payment-failed', subscriptionController.handlePaymentFailed);
 router.post('/subscription/expiring-soon', subscriptionController.handleSubscriptionExpiring);
 router.post('/subscription/reactivated', subscriptionController.handleSubscriptionReactivated);
+router.post('/subscription/updated', subscriptionController.handleSubscriptionUpdated);
 
 // Route générique pour les notifications d'abonnement (compatibilité)
 router.post('/subscription-notification', subscriptionController.handleGenericSubscriptionNotification);
