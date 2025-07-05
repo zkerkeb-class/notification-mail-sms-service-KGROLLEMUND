@@ -1,0 +1,1140 @@
+{
+  "timestamp": "2025-05-19T08:24:56.431Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T08:24:57.004Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T08:41:54.526Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T08:41:54.805Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T08:42:13.222Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T08:42:13.502Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T12:22:27.026Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T12:22:27.405Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T12:48:16.851Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "✅ Votre abonnement a été réactivé",
+  "textPreview": "Bonjour,\n\nVotre abonnement a été réactivé avec succès. Merci de votre confiance!\n\nVous bénéficiez à ...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T12:48:16.859Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "✅ Votre abonnement a été réactivé"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T12:48:18.760Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<c9b2dfae-8a98-03d8-f609-049c4f3b3894@gmail.com>",
+  "response": "250 2.0.0 OK  1747658898 5b1f17b1804b1-442fd59ab21sm133723715e9.38 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T12:48:19.369Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "🎉 Bienvenue à votre abonnement Premium!",
+  "textPreview": "Bonjour,\n\nMerci de vous être abonné à notre service premium. Votre abonnement est maintenant actif.\n...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T12:48:19.370Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "🎉 Bienvenue à votre abonnement Premium!"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T12:48:20.143Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<626d696f-7ba2-b3c9-b361-0d59d70294e9@gmail.com>",
+  "response": "250 2.0.0 OK  1747658899 5b1f17b1804b1-442fd59ab21sm133723715e9.38 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T13:28:17.964Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:28:18.611Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:28:19.891Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:28:20.462Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:28:20.838Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:28:48.827Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:28:49.097Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:31:45.664Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:31:45.973Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:32:49.595Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:32:50.025Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:34:21.570Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:34:21.957Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:35:00.235Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:35:00.554Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:39:30.153Z",
+  "action": "SEND_EMAIL_START",
+  "to": {
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Notification d'abonnement",
+    "text": "Notification concernant votre abonnement.",
+    "html": "<h2>Notification d'abonnement</h2><p>Notification concernant votre abonnement.</p>"
+  },
+  "textPreview": null,
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T13:39:30.154Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": {
+      "to": "kylliangrollemund@gmail.com",
+      "subject": "Notification d'abonnement",
+      "text": "Notification concernant votre abonnement.",
+      "html": "<h2>Notification d'abonnement</h2><p>Notification concernant votre abonnement.</p>"
+    }
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T13:39:30.399Z",
+  "action": "SEND_EMAIL_ERROR",
+  "to": {
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Notification d'abonnement",
+    "text": "Notification concernant votre abonnement.",
+    "html": "<h2>Notification d'abonnement</h2><p>Notification concernant votre abonnement.</p>"
+  },
+  "error": "No recipients defined",
+  "stack": "Error: No recipients defined\n    at SMTPConnection._formatError (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._setEnvelope (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1047:34)\n    at SMTPConnection.send (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:631:14)\n    at PoolResource.send (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-pool\\pool-resource.js:204:25)\n    at C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-pool\\pool-resource.js:177:29\n    at C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-pool\\pool-resource.js:154:25\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1602:9)\n    at SMTPConnection.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n    at SMTPConnection._processResponse (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)",
+  "code": "EENVELOPE"
+}
+---
+{
+  "timestamp": "2025-05-19T13:39:30.406Z",
+  "action": "SEND_EMAIL_START",
+  "to": {
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Votre abonnement a été activé",
+    "text": "Félicitations ! Votre abonnement a été activé avec succès. ID d'abonnement: sub_1RQTubIWy9Nl9meE207Q3Ifd",
+    "html": "\n          <h2>Votre abonnement a été activé</h2>\n          <p>Félicitations ! Votre abonnement a été activé avec succès.</p>\n          <p>ID d'abonnement: <strong>sub_1RQTubIWy9Nl9meE207Q3Ifd</strong></p>\n          <p>Merci de votre confiance !</p>\n        "
+  },
+  "textPreview": null,
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T13:39:30.407Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": {
+      "to": "kylliangrollemund@gmail.com",
+      "subject": "Votre abonnement a été activé",
+      "text": "Félicitations ! Votre abonnement a été activé avec succès. ID d'abonnement: sub_1RQTubIWy9Nl9meE207Q3Ifd",
+      "html": "\n          <h2>Votre abonnement a été activé</h2>\n          <p>Félicitations ! Votre abonnement a été activé avec succès.</p>\n          <p>ID d'abonnement: <strong>sub_1RQTubIWy9Nl9meE207Q3Ifd</strong></p>\n          <p>Merci de votre confiance !</p>\n        "
+    }
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T13:39:30.714Z",
+  "action": "SEND_EMAIL_ERROR",
+  "to": {
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Votre abonnement a été activé",
+    "text": "Félicitations ! Votre abonnement a été activé avec succès. ID d'abonnement: sub_1RQTubIWy9Nl9meE207Q3Ifd",
+    "html": "\n          <h2>Votre abonnement a été activé</h2>\n          <p>Félicitations ! Votre abonnement a été activé avec succès.</p>\n          <p>ID d'abonnement: <strong>sub_1RQTubIWy9Nl9meE207Q3Ifd</strong></p>\n          <p>Merci de votre confiance !</p>\n        "
+  },
+  "error": "No recipients defined",
+  "stack": "Error: No recipients defined\n    at SMTPConnection._formatError (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._setEnvelope (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1047:34)\n    at SMTPConnection.send (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:631:14)\n    at PoolResource.send (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-pool\\pool-resource.js:204:25)\n    at C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-pool\\pool-resource.js:177:29\n    at C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-pool\\pool-resource.js:154:25\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1602:9)\n    at SMTPConnection.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n    at SMTPConnection._processResponse (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)",
+  "code": "EENVELOPE"
+}
+---
+{
+  "timestamp": "2025-05-19T13:45:20.277Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:45:20.600Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:45:36.002Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:45:36.665Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:46:38.757Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:46:39.099Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:46:45.362Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:46:45.674Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:48:27.808Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Notification d'abonnement",
+  "textPreview": "Notification concernant votre abonnement....",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T13:48:27.811Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Notification d'abonnement"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T13:48:29.181Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<1bc5d1a5-0e5f-6b35-363d-ed7c6e1d30cc@gmail.com>",
+  "response": "250 2.0.0 OK  1747662508 ffacd0b85a97d-3a35ca4d0fasm12990488f8f.8 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T13:56:41.247Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:56:41.556Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:57:05.345Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T13:57:05.635Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T13:58:28.222Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Notification d'abonnement",
+  "textPreview": "Notification concernant votre abonnement....",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T13:58:28.223Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Notification d'abonnement"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T13:58:29.351Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<4e116938-7fca-b5e0-573a-62a91a320134@gmail.com>",
+  "response": "250 2.0.0 OK  1747663108 ffacd0b85a97d-3a35ca8ce9asm12820520f8f.86 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:01:45.055Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:01:45.489Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:02:15.642Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:02:17.097Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:02:20.476Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:02:21.832Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:02:23.125Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:03:26.389Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Notification d'abonnement",
+  "textPreview": "Notification concernant votre abonnement....",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:03:26.391Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Notification d'abonnement"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:03:26.491Z",
+  "action": "SEND_EMAIL_START",
+  "to": {
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Votre abonnement a été activé",
+    "text": "Félicitations ! Votre abonnement a été activé avec succès. ID d'abonnement: sub_1RQUHlIWy9Nl9meEAWxOHyau",
+    "html": "\n    <h2>Votre abonnement a été activé</h2>\n    <p>Félicitations ! Votre abonnement a été activé avec succès.</p>\n    <p>ID d'abonnement: <strong>sub_1RQUHlIWy9Nl9meEAWxOHyau</strong></p>\n    <p>Plan: <strong>Premium</strong></p>\n    <p>Date de fin: <strong>18/06/2025</strong></p>\n    <p>Merci de votre confiance !</p>\n  "
+  },
+  "textPreview": null,
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:03:26.494Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": {
+      "to": "kylliangrollemund@gmail.com",
+      "subject": "Votre abonnement a été activé",
+      "text": "Félicitations ! Votre abonnement a été activé avec succès. ID d'abonnement: sub_1RQUHlIWy9Nl9meEAWxOHyau",
+      "html": "\n    <h2>Votre abonnement a été activé</h2>\n    <p>Félicitations ! Votre abonnement a été activé avec succès.</p>\n    <p>ID d'abonnement: <strong>sub_1RQUHlIWy9Nl9meEAWxOHyau</strong></p>\n    <p>Plan: <strong>Premium</strong></p>\n    <p>Date de fin: <strong>18/06/2025</strong></p>\n    <p>Merci de votre confiance !</p>\n  "
+    }
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:03:26.904Z",
+  "action": "SEND_EMAIL_ERROR",
+  "to": {
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Votre abonnement a été activé",
+    "text": "Félicitations ! Votre abonnement a été activé avec succès. ID d'abonnement: sub_1RQUHlIWy9Nl9meEAWxOHyau",
+    "html": "\n    <h2>Votre abonnement a été activé</h2>\n    <p>Félicitations ! Votre abonnement a été activé avec succès.</p>\n    <p>ID d'abonnement: <strong>sub_1RQUHlIWy9Nl9meEAWxOHyau</strong></p>\n    <p>Plan: <strong>Premium</strong></p>\n    <p>Date de fin: <strong>18/06/2025</strong></p>\n    <p>Merci de votre confiance !</p>\n  "
+  },
+  "error": "No recipients defined",
+  "stack": "Error: No recipients defined\n    at SMTPConnection._formatError (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._setEnvelope (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1047:34)\n    at SMTPConnection.send (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:631:14)\n    at PoolResource.send (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-pool\\pool-resource.js:204:25)\n    at C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-pool\\pool-resource.js:177:29\n    at C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-pool\\pool-resource.js:154:25\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1602:9)\n    at SMTPConnection.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n    at SMTPConnection._processResponse (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)",
+  "code": "EENVELOPE"
+}
+---
+{
+  "timestamp": "2025-05-19T14:03:28.225Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<4c38dfe8-aaa9-9c0f-7ced-5a32e9764bd1@gmail.com>",
+  "response": "250 2.0.0 OK  1747663407 ffacd0b85a97d-3a362b4e2e1sm11590177f8f.96 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:15:01.493Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:15:01.808Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:15:25.562Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:15:25.882Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:18:18.797Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Votre abonnement a été activé",
+  "textPreview": "Félicitations ! Votre abonnement a été activé avec succès. ID d'abonnement: sub_1RQUW9IWy9Nl9meE0zXT...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:18:18.798Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Votre abonnement a été activé"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:18:18.979Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Notification d'abonnement",
+  "textPreview": "Notification concernant votre abonnement....",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:18:18.980Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Notification d'abonnement"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:18:19.686Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<cdba0f46-c43b-0462-254f-a2aaf360b15c@gmail.com>",
+  "response": "250 2.0.0 OK  1747664298 ffacd0b85a97d-3a35ca8874bsm13153448f8f.67 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:18:20.045Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<4e02281a-d33c-bbee-c05c-9b140b65f5db@gmail.com>",
+  "response": "250 2.0.0 OK  1747664299 5b1f17b1804b1-442fd583f3dsm141306575e9.30 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:24:57.551Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Notification d'abonnement",
+  "textPreview": "Notification concernant votre abonnement....",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:24:57.552Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Notification d'abonnement"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:24:57.745Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Votre abonnement a été activé",
+  "textPreview": "Félicitations ! Votre abonnement a été activé avec succès. ID d'abonnement: sub_1RQUcbIWy9Nl9meE5pWN...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:24:57.745Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Votre abonnement a été activé"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:24:58.596Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<a70591e5-04b7-4e22-2b2a-815489662de1@gmail.com>",
+  "response": "250 2.0.0 OK  1747664697 ffacd0b85a97d-3a35ca88990sm13301822f8f.68 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:24:58.906Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<4fedecfc-d5fa-3cd1-365f-c1cb8400926a@gmail.com>",
+  "response": "250 2.0.0 OK  1747664698 ffacd0b85a97d-3a35ca5a87fsm12771542f8f.29 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:28:11.807Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:28:12.134Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:30:14.960Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:30:15.299Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:31:02.995Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Notification d'abonnement",
+  "textPreview": "Notification concernant votre abonnement....",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:31:02.997Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Notification d'abonnement"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:31:03.148Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Votre abonnement a été activé",
+  "textPreview": "Félicitations ! Votre abonnement a été activé avec succès. ID d'abonnement: sub_1RQUiTIWy9Nl9meE8A3s...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:31:03.149Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Votre abonnement a été activé"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:31:04.080Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<9def4087-dc84-4360-bed1-00bd1ec1fd42@gmail.com>",
+  "response": "250 2.0.0 OK  1747665063 ffacd0b85a97d-3a35ca5a5b4sm12864756f8f.21 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:31:04.608Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<652880bc-ea62-e0f6-80c0-c6be41f8da3f@gmail.com>",
+  "response": "250 2.0.0 OK  1747665063 ffacd0b85a97d-3a35ca5a87fsm12787841f8f.29 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:33:21.351Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:33:21.662Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:34:08.059Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Votre abonnement a été activé",
+  "textPreview": "Félicitations ! Votre abonnement a été activé avec succès. ID d'abonnement: sub_1RQUlSIWy9Nl9meEXaKQ...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:34:08.060Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Votre abonnement a été activé"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:34:08.148Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Notification d'abonnement",
+  "textPreview": "Notification concernant votre abonnement....",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:34:08.153Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Notification d'abonnement"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:34:09.384Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<88d7f4c6-df7e-c99f-6e05-0c94ca8f4562@gmail.com>",
+  "response": "250 2.0.0 OK  1747665248 ffacd0b85a97d-3a35ca88978sm13319285f8f.65 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:34:09.711Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<68325464-ea2b-7466-3022-60ecbb1720b4@gmail.com>",
+  "response": "250 2.0.0 OK  1747665248 5b1f17b1804b1-442f338070csm211062385e9.15 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:34:58.825Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:34:59.132Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:35:43.145Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "textPreview": null,
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:35:43.152Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:35:43.608Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Votre abonnement a été activé",
+  "textPreview": "Félicitations ! Votre abonnement a été activé avec succès. ID d'abonnement: sub_1RQUn0IWy9Nl9meEW1lB...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:35:43.609Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Votre abonnement a été activé"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:35:44.179Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<81b371e8-0753-3c20-60f3-66907e9e9379@gmail.com>",
+  "response": "250 2.0.0 OK  1747665343 ffacd0b85a97d-3a368136014sm8788841f8f.92 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:35:44.827Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<6b95ba52-9b0e-70b5-8d53-5db252d785a3@gmail.com>",
+  "response": "250 2.0.0 OK  1747665344 5b1f17b1804b1-442fd4fdc73sm148989635e9.2 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:45:07.426Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "subject": "Votre abonnement a été activé",
+  "textPreview": "Félicitations ! Votre abonnement a été activé avec succès. ID d'abonnement: sub_1RQUw6IWy9Nl9meErW3L...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:45:07.429Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com",
+    "subject": "Votre abonnement a été activé"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:45:07.593Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kylliangrollemund@gmail.com",
+  "textPreview": null,
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-19T14:45:07.599Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kylliangrollemund@gmail.com"
+  }
+}
+---
+{
+  "timestamp": "2025-05-19T14:45:08.665Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<f2c24edd-eb3a-7c9a-060a-986fa3e8ca1a@gmail.com>",
+  "response": "250 2.0.0 OK  1747665907 ffacd0b85a97d-3a35ca5a03fsm12941029f8f.22 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:45:08.894Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kylliangrollemund@gmail.com",
+  "messageId": "<d63ac1ef-b47d-d7ac-9c67-e3a26ae838d7@gmail.com>",
+  "response": "250 2.0.0 OK  1747665908 ffacd0b85a97d-3a362b4e2e1sm11712815f8f.96 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-19T14:49:04.131Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:49:04.447Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:51:34.338Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:51:34.703Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:56:41.330Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:56:41.658Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:56:43.326Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:56:43.612Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:57:31.638Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:57:31.969Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:57:34.432Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:57:34.759Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:57:35.053Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:57:35.348Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:57:50.703Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:57:51.047Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:57:52.554Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:57:52.825Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:58:23.181Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:58:23.495Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:58:25.123Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:58:25.430Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:58:39.425Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:58:39.713Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-19T14:59:19.575Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-19T14:59:19.869Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
