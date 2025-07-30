@@ -92,49 +92,7 @@ N'hésitez pas à nous contacter si vous avez des questions.`;
   }
 };
 
-/**
- * Envoie un email de confirmation de changement de mot de passe
- */
-const sendPasswordChangedEmail = async (req, res) => {
-  try {
-    const { to, name } = req.body;
-    
-    if (!to) {
-      return res.status(400).json({ success: false, message: 'Destinataire requis' });
-    }
-    
-    console.log(`📧 Email de confirmation de changement de mot de passe à ${to}`);
-    
-    const subject = 'Votre mot de passe a été modifié';
-    const text = `Bonjour ${name || 'cher utilisateur'},
-
-Votre mot de passe a été modifié avec succès.
-
-Si vous n'avez pas effectué cette modification, veuillez nous contacter immédiatement.`;
-
-    const html = `
-      <h2>Votre mot de passe a été modifié</h2>
-      <p>Bonjour ${name || 'cher utilisateur'},</p>
-      <p>Votre mot de passe a été modifié avec succès.</p>
-      <p>Si vous n'avez pas effectué cette modification, veuillez nous contacter immédiatement.</p>
-    `;
-    
-    const result = await notificationService.sendEmail({
-      to,
-      subject,
-      text,
-      html
-    });
-    
-    res.json({ success: true, message: 'Email de confirmation envoyé avec succès', ...result });
-  } catch (error) {
-    console.error('❌ Erreur lors de l\'envoi de l\'email de confirmation:', error);
-    res.status(500).json({ success: false, message: error.message });
-  }
-};
-
 module.exports = {
   sendVerificationEmail,
   sendWelcomeEmail,
-  sendPasswordChangedEmail
 }; 

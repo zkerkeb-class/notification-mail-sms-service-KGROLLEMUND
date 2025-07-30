@@ -184,9 +184,9 @@ const handleSubscriptionCancelled = async (req, res) => {
       html: template.getHTML(subscriptionData || {})
     });
     
-    res.json({ success: true, message: "Notification d'annulation d'abonnement envoyée avec succès", ...result });
+    res.json({ success: true, message: "Notification d'annulation envoyée avec succès", ...result });
   } catch (error) {
-    console.error('❌ Erreur lors de l\'envoi de la notification d\'annulation d\'abonnement:', error);
+    console.error('❌ Erreur lors de l\'envoi de la notification d\'annulation:', error);
     res.status(500).json({ success: false, message: error.message });
   }
 };
@@ -196,87 +196,27 @@ const handleSubscriptionCancelled = async (req, res) => {
  */
 const handlePaymentFailed = async (req, res) => {
   try {
-    const { email, paymentData } = req.body;
+    const { email, subscriptionData } = req.body;
     
     if (!email) {
       return res.status(400).json({ success: false, message: 'Email destinataire requis' });
     }
     
     console.log(`📧 Notification d'échec de paiement à ${email}`);
-    console.log(`📦 Données de paiement:`, JSON.stringify(paymentData || {}, null, 2));
+    console.log(`📦 Données d'abonnement:`, JSON.stringify(subscriptionData || {}, null, 2));
     
     const template = subscriptionTemplates.paymentFailed;
     
     const result = await notificationService.sendEmail({
       to: email,
       subject: template.getSubject(),
-      text: template.getText(paymentData || {}),
-      html: template.getHTML(paymentData || {})
+      text: template.getText(subscriptionData || {}),
+      html: template.getHTML(subscriptionData || {})
     });
     
     res.json({ success: true, message: "Notification d'échec de paiement envoyée avec succès", ...result });
   } catch (error) {
     console.error('❌ Erreur lors de l\'envoi de la notification d\'échec de paiement:', error);
-    res.status(500).json({ success: false, message: error.message });
-  }
-};
-
-/**
- * Gère la notification d'expiration imminente
- */
-const handleSubscriptionExpiring = async (req, res) => {
-  try {
-    const { email, subscriptionData } = req.body;
-    
-    if (!email) {
-      return res.status(400).json({ success: false, message: 'Email destinataire requis' });
-    }
-    
-    console.log(`📧 Notification d'expiration imminente à ${email}`);
-    console.log(`📦 Données d'abonnement:`, JSON.stringify(subscriptionData || {}, null, 2));
-    
-    const template = subscriptionTemplates.expiringSoon;
-    
-    const result = await notificationService.sendEmail({
-      to: email,
-      subject: template.getSubject(),
-      text: template.getText(subscriptionData || {}),
-      html: template.getHTML(subscriptionData || {})
-    });
-    
-    res.json({ success: true, message: "Notification d'expiration imminente envoyée avec succès", ...result });
-  } catch (error) {
-    console.error('❌ Erreur lors de l\'envoi de la notification d\'expiration imminente:', error);
-    res.status(500).json({ success: false, message: error.message });
-  }
-};
-
-/**
- * Gère la notification de réactivation d'abonnement
- */
-const handleSubscriptionReactivated = async (req, res) => {
-  try {
-    const { email, subscriptionData } = req.body;
-    
-    if (!email) {
-      return res.status(400).json({ success: false, message: 'Email destinataire requis' });
-    }
-    
-    console.log(`📧 Notification de réactivation d'abonnement à ${email}`);
-    console.log(`📦 Données d'abonnement:`, JSON.stringify(subscriptionData || {}, null, 2));
-    
-    const template = subscriptionTemplates.reactivated;
-    
-    const result = await notificationService.sendEmail({
-      to: email,
-      subject: template.getSubject(),
-      text: template.getText(subscriptionData || {}),
-      html: template.getHTML(subscriptionData || {})
-    });
-    
-    res.json({ success: true, message: "Notification de réactivation d'abonnement envoyée avec succès", ...result });
-  } catch (error) {
-    console.error('❌ Erreur lors de l\'envoi de la notification de réactivation d\'abonnement:', error);
     res.status(500).json({ success: false, message: error.message });
   }
 };
@@ -376,8 +316,6 @@ module.exports = {
   handleSubscriptionStart,
   handleSubscriptionCancelled,
   handlePaymentFailed,
-  handleSubscriptionExpiring,
-  handleSubscriptionReactivated,
   handleSubscriptionUpdated,
   handleGenericSubscriptionNotification
 }; 

@@ -31,6 +31,17 @@ app.use(express.json());
 app.use(morgan("combined", { stream: accessLogStream }));
 app.use(morgan("dev")); // Affichage des logs dans la console
 
+// Middleware Prometheus pour collecter les métriques HTTP
+const metricsMiddleware = promBundle({
+  includeMethod: true,
+  includePath: true,
+  includeStatusCode: true,
+  includeUp: true,
+  customLabels: { project_name: "notif-service" }, // Remplacer par le nom du service
+  promClient: { collectDefaultMetrics: {} },
+});
+app.use(metricsMiddleware);
+
 // Ajouter un middleware pour log les requêtes entrantes
 app.use((req, res, next) => {
   console.log(`📝 ${new Date().toISOString()} - ${req.method} ${req.url}`);
@@ -101,17 +112,6 @@ app.use((err, req, res, next) => {
     error: process.env.NODE_ENV === "development" ? err.message : undefined,
   });
 });
-
-// Middleware Prometheus pour collecter les métriques HTTP
-const metricsMiddleware = promBundle({
-  includeMethod: true,
-  includePath: true,
-  includeStatusCode: true,
-  includeUp: true,
-  customLabels: { project_name: "notif-service" }, // Remplacer par le nom du service
-  promClient: { collectDefaultMetrics: {} },
-});
-app.use(metricsMiddleware);
 
 // Route pour exposer les métriques Prometheus
 app.get("/metrics", (req, res) => {
