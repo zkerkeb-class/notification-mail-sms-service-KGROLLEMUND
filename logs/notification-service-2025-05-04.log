@@ -1,0 +1,181 @@
+[2025-05-04T19:32:35.154Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-04T19:32:35.156Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-04T19:32:35.157Z] 📋 Routes disponibles:
+[2025-05-04T19:32:35.157Z] GET /health - Vérification de santé du service
+[2025-05-04T19:32:35.158Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-04T19:32:35.158Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-04T19:32:35.159Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-04T19:32:35.160Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-04T19:32:35.162Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-04T19:32:35.162Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-04T19:32:35.163Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-04T19:32:52.676Z] 📥 GET /health - Corps: 
+[2025-05-04T19:32:52.677Z] 🔍 Vérification de santé du service
+[2025-05-04T19:32:52.678Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-04T19:32:52.678Z"}
+[2025-05-04T19:34:38.004Z] 📥 GET /health - Corps: 
+[2025-05-04T19:34:38.005Z] 🔍 Vérification de santé du service
+[2025-05-04T19:34:38.005Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-04T19:34:38.005Z"}
+[2025-05-04T19:42:41.396Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-04T19:42:41.398Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-04T19:42:41.400Z] 📋 Routes disponibles:
+[2025-05-04T19:42:41.400Z] GET /health - Vérification de santé du service
+[2025-05-04T19:42:41.401Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-04T19:42:41.402Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-04T19:42:41.403Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-04T19:42:41.404Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-04T19:42:41.404Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-04T19:42:41.405Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-04T19:42:41.405Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-04T19:42:42.731Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-04T19:42:42.734Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-04T19:42:42.735Z] 📋 Routes disponibles:
+[2025-05-04T19:42:42.736Z] GET /health - Vérification de santé du service
+[2025-05-04T19:42:42.738Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-04T19:42:42.738Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-04T19:42:42.739Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-04T19:42:42.739Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-04T19:42:42.740Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-04T19:42:42.740Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-04T19:42:42.742Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-04T19:44:40.759Z] 📥 GET /health - Corps: 
+[2025-05-04T19:44:40.761Z] 🔍 Vérification de santé du service
+[2025-05-04T19:44:40.761Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-04T19:44:40.761Z"}
+[2025-05-04T19:44:41.066Z] 📥 POST /notifications/send-email - Corps: undefined
+[2025-05-04T19:44:42.770Z] 📤 POST /notifications/send-email - 200 (1704ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès"}
+[2025-05-04T19:44:42.777Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-04T19:44:43.541Z] 📤 POST /notifications/subscription-notification - 200 (764ms) - Réponse: {"success":true,"message":"Notification d'abonnement envoyée avec succès"}
+[2025-05-04T19:44:43.544Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-04T19:44:44.839Z] 📤 POST /notifications/subscription-notification - 200 (1295ms) - Réponse: {"success":true,"message":"Notification d'abonnement envoyée avec succès"}
+[2025-05-04T19:45:44.172Z] 📥 GET /health - Corps: 
+[2025-05-04T19:45:44.172Z] 🔍 Vérification de santé du service
+[2025-05-04T19:45:44.173Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-04T19:45:44.173Z"}
+[2025-05-04T19:45:44.467Z] 📥 POST /notifications/send-email - Corps: undefined
+[2025-05-04T19:45:45.985Z] 📤 POST /notifications/send-email - 200 (1518ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès"}
+[2025-05-04T19:45:45.987Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-04T19:45:46.681Z] 📤 POST /notifications/subscription-notification - 200 (694ms) - Réponse: {"success":true,"message":"Notification d'abonnement envoyée avec succès"}
+[2025-05-04T19:45:46.688Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-04T19:45:47.987Z] 📤 POST /notifications/subscription-notification - 200 (1299ms) - Réponse: {"success":true,"message":"Notification d'abonnement envoyée avec succès"}
+[2025-05-04T19:48:58.663Z] 📥 GET /health - Corps: 
+[2025-05-04T19:48:58.663Z] 🔍 Vérification de santé du service
+[2025-05-04T19:48:58.664Z] 📤 GET /health - 200 (1ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-04T19:48:58.664Z"}
+[2025-05-04T19:48:58.964Z] 📥 POST /notifications/send-email - Corps: undefined
+[2025-05-04T19:49:00.045Z] 📤 POST /notifications/send-email - 200 (1081ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès"}
+[2025-05-04T19:49:00.048Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-04T19:49:01.407Z] 📤 POST /notifications/subscription-notification - 200 (1359ms) - Réponse: {"success":true,"message":"Notification d'abonnement envoyée avec succès"}
+[2025-05-04T19:49:01.411Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-04T19:49:02.752Z] 📤 POST /notifications/subscription-notification - 200 (1341ms) - Réponse: {"success":true,"message":"Notification d'abonnement envoyée avec succès"}
+[2025-05-04T19:49:32.633Z] 📥 GET /health - Corps: 
+[2025-05-04T19:49:32.634Z] 🔍 Vérification de santé du service
+[2025-05-04T19:49:32.635Z] 📤 GET /health - 200 (2ms) - Réponse: {"status":"OK","message":"Service de notifications opérationnel","emailConfigured":true,"timestamp":"2025-05-04T19:49:32.635Z"}
+[2025-05-04T19:49:32.948Z] 📥 POST /notifications/send-email - Corps: undefined
+[2025-05-04T19:49:34.460Z] 📤 POST /notifications/send-email - 200 (1512ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès"}
+[2025-05-04T19:49:34.463Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-04T19:49:35.127Z] 📤 POST /notifications/subscription-notification - 200 (664ms) - Réponse: {"success":true,"message":"Notification d'abonnement envoyée avec succès"}
+[2025-05-04T19:49:35.135Z] 📥 POST /notifications/subscription-notification - Corps: undefined
+[2025-05-04T19:49:35.739Z] 📤 POST /notifications/subscription-notification - 200 (604ms) - Réponse: {"success":true,"message":"Notification d'abonnement envoyée avec succès"}
+[2025-05-04T19:55:43.314Z] 📥 POST /send-email - Corps: undefined
+[2025-05-04T19:55:43.315Z] ⚠️ Route non trouvée: POST /send-email
+[2025-05-04T19:55:43.316Z] 📤 POST /send-email - 404 (2ms) - Réponse: {"success":false,"message":"Route non trouvée"}
+[2025-05-04T19:59:50.119Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-04T19:59:50.122Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-04T19:59:50.123Z] 📋 Routes disponibles:
+[2025-05-04T19:59:50.123Z] GET /health - Vérification de santé du service
+[2025-05-04T19:59:50.124Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-04T19:59:50.124Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-04T19:59:50.125Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-04T19:59:50.125Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-04T19:59:50.126Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-04T19:59:50.126Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-04T19:59:50.127Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-04T20:07:36.485Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-04T20:07:36.487Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-04T20:07:36.488Z] 📋 Routes disponibles:
+[2025-05-04T20:07:36.488Z] GET /health - Vérification de santé du service
+[2025-05-04T20:07:36.489Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-04T20:07:36.489Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-04T20:07:36.490Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-04T20:07:36.490Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-04T20:07:36.491Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-04T20:07:36.491Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-04T20:07:36.492Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-04T20:07:38.298Z] 📥 POST /send-email - Corps: undefined
+[2025-05-04T20:07:38.310Z] ⚠️ Route non trouvée: POST /send-email
+[2025-05-04T20:07:38.311Z] 📤 POST /send-email - 404 (13ms) - Réponse: {"success":false,"message":"Route non trouvée"}
+[2025-05-04T20:09:16.102Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-04T20:09:16.104Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-04T20:09:16.105Z] 📋 Routes disponibles:
+[2025-05-04T20:09:16.105Z] GET /health - Vérification de santé du service
+[2025-05-04T20:09:16.106Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-04T20:09:16.106Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-04T20:09:16.107Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-04T20:09:16.107Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-04T20:09:16.108Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-04T20:09:16.108Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-04T20:09:16.109Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-04T20:09:18.386Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-04T20:09:18.388Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-04T20:09:18.389Z] 📋 Routes disponibles:
+[2025-05-04T20:09:18.390Z] GET /health - Vérification de santé du service
+[2025-05-04T20:09:18.391Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-04T20:09:18.392Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-04T20:09:18.393Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-04T20:09:18.393Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-04T20:09:18.394Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-04T20:09:18.394Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-04T20:09:18.395Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-04T20:09:19.207Z] 📥 POST /send-email - Corps: undefined
+[2025-05-04T20:09:19.215Z] ⚠️ Route non trouvée: POST /send-email
+[2025-05-04T20:09:19.216Z] 📤 POST /send-email - 404 (9ms) - Réponse: {"success":false,"message":"Route non trouvée"}
+[2025-05-04T20:12:08.758Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-04T20:12:08.763Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-04T20:12:08.763Z] 📋 Routes disponibles:
+[2025-05-04T20:12:08.764Z] GET /health - Vérification de santé du service
+[2025-05-04T20:12:08.764Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-04T20:12:08.765Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-04T20:12:08.765Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-04T20:12:08.765Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-04T20:12:08.766Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-04T20:12:08.766Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-04T20:12:08.767Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-04T20:20:42.239Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-04T20:20:42.243Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-04T20:20:42.244Z] 📋 Routes disponibles:
+[2025-05-04T20:20:42.244Z] GET /health - Vérification de santé du service
+[2025-05-04T20:20:42.245Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-04T20:20:42.246Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-04T20:20:42.246Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-04T20:20:42.247Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-04T20:20:42.247Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-04T20:20:42.247Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-04T20:20:42.248Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-04T20:21:27.407Z] 📥 POST /send-email - Corps: undefined
+[2025-05-04T20:21:27.415Z] ⚠️ Route non trouvée: POST /send-email
+[2025-05-04T20:21:27.416Z] 📤 POST /send-email - 404 (9ms) - Réponse: {"success":false,"message":"Route non trouvée"}
+[2025-05-04T20:22:13.295Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-04T20:22:13.297Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-04T20:22:13.298Z] 📋 Routes disponibles:
+[2025-05-04T20:22:13.298Z] GET /health - Vérification de santé du service
+[2025-05-04T20:22:13.299Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-04T20:22:13.300Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-04T20:22:13.300Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-04T20:22:13.301Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-04T20:22:13.301Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-04T20:22:13.302Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-04T20:22:13.302Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-04T20:25:15.124Z] 🛣️ Routes de notifications configurées sur /notifications
+[2025-05-04T20:25:15.126Z] ✅ Service de notifications en cours d'exécution sur le port 3006
+[2025-05-04T20:25:15.127Z] 📋 Routes disponibles:
+[2025-05-04T20:25:15.127Z] GET /health - Vérification de santé du service
+[2025-05-04T20:25:15.128Z] POST /notifications/send-email - Envoi d'email standard
+[2025-05-04T20:25:15.128Z] POST /notifications/subscription-notification - Envoi de notification d'abonnement
+[2025-05-04T20:25:15.129Z] POST /notifications/invoice - Envoi de facture par email
+[2025-05-04T20:25:15.129Z] GET /notifications/test-email - Test d'envoi d'email
+[2025-05-04T20:25:15.130Z] POST /notifications/email-confirmation - Confirmation d'email
+[2025-05-04T20:25:15.130Z] POST /notifications/password-reset - Réinitialisation de mot de passe
+[2025-05-04T20:25:15.130Z] POST /notifications/push-notification - Envoi de notification push
+[2025-05-04T20:25:47.284Z] 📥 POST /notifications/send-email - Corps: undefined
+[2025-05-04T20:25:47.622Z] 📤 POST /notifications/send-email - 500 (338ms) - Réponse: {"success":false,"message":"Erreur lors de l'envoi de l'e-mail","error":"Can't send mail - all recipients were rejected: 553-5.1.3 The recipient address <kyllian.grollemund@gmail.com@gmail.com> is not\n553-5.1.3 a valid RFC 5321 address. For more information, go to\n553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321\n553 5.1.3 specifications. 5b1f17b1804b1-441b8e97c53sm108987845e9.9 - gsmtp"}
+[2025-05-04T20:29:33.405Z] 📥 POST /notifications/send-email - Corps: undefined
+[2025-05-04T20:29:34.353Z] 📤 POST /notifications/send-email - 200 (948ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès"}
+[2025-05-04T20:30:48.680Z] 📥 POST /notifications/send-email - Corps: undefined
+[2025-05-04T20:30:50.411Z] 📤 POST /notifications/send-email - 200 (1731ms) - Réponse: {"success":true,"message":"E-mail envoyé avec succès"}

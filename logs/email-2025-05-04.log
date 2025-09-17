@@ -1,0 +1,560 @@
+{
+  "timestamp": "2025-05-04T19:32:35.150Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-04T19:32:35.453Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-04T19:42:41.392Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-04T19:42:41.704Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-04T19:42:42.726Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-04T19:42:43.021Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-04T19:44:41.083Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Test de diagnostic - 2025-05-04T19:44:41.062Z",
+  "textPreview": "Ceci est un email de test envoyé par le script de diagnostic.\n\nHeure: 2025-05-04T19:44:41.062Z...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T19:44:41.084Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Test de diagnostic - 2025-05-04T19:44:41.062Z"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T19:44:42.761Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<20e1ec51-2eef-44a4-3a24-3a719d745ecf@gmail.com>",
+  "response": "250 2.0.0 OK  1746387882 5b1f17b1804b1-441b2ad784asm154902445e9.7 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T19:44:42.781Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "🎉 Bienvenue à votre abonnement Premium!",
+  "textPreview": "Bonjour,\n\nMerci de vous être abonné à notre service premium. Votre abonnement est maintenant actif.\n...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T19:44:42.781Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "🎉 Bienvenue à votre abonnement Premium!"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T19:44:43.529Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<c358f920-51e1-bb28-0b50-78f6b093e4b7@gmail.com>",
+  "response": "250 2.0.0 OK  1746387883 5b1f17b1804b1-441b2ad784asm154902445e9.7 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T19:44:43.547Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "🎉 Bienvenue à votre abonnement Premium!",
+  "textPreview": "Bonjour,\n\nMerci de vous être abonné à notre service premium. Votre abonnement est maintenant actif.\n...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T19:44:43.547Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "🎉 Bienvenue à votre abonnement Premium!"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T19:44:44.825Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<9567b6bf-f972-0ccc-b6b7-d4326b60aa20@gmail.com>",
+  "response": "250 2.0.0 OK  1746387884 5b1f17b1804b1-441b2ad784asm154902445e9.7 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T19:45:44.468Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Test de diagnostic - 2025-05-04T19:45:44.463Z",
+  "textPreview": "Ceci est un email de test envoyé par le script de diagnostic.\n\nHeure: 2025-05-04T19:45:44.463Z...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T19:45:44.470Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Test de diagnostic - 2025-05-04T19:45:44.463Z"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T19:45:45.982Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<b9fe8b17-f2ef-e156-94e5-56dee4eb98cf@gmail.com>",
+  "response": "250 2.0.0 OK  1746387945 5b1f17b1804b1-441b8a286b9sm109608745e9.28 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T19:45:45.990Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "🎉 Bienvenue à votre abonnement Premium!",
+  "textPreview": "Bonjour,\n\nMerci de vous être abonné à notre service premium. Votre abonnement est maintenant actif.\n...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T19:45:45.990Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "🎉 Bienvenue à votre abonnement Premium!"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T19:45:46.659Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<d64d0768-8ec9-df61-3e07-e41dc509c227@gmail.com>",
+  "response": "250 2.0.0 OK  1746387946 5b1f17b1804b1-441b8a286b9sm109608745e9.28 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T19:45:46.693Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "🎉 Bienvenue à votre abonnement Premium!",
+  "textPreview": "Bonjour,\n\nMerci de vous être abonné à notre service premium. Votre abonnement est maintenant actif.\n...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T19:45:46.694Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "🎉 Bienvenue à votre abonnement Premium!"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T19:45:47.976Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<df033033-eb3d-1531-5011-dcd788fb76d4@gmail.com>",
+  "response": "250 2.0.0 OK  1746387947 5b1f17b1804b1-441b8a286b9sm109608745e9.28 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T19:48:58.967Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Test de diagnostic - 2025-05-04T19:48:58.956Z",
+  "textPreview": "Ceci est un email de test envoyé par le script de diagnostic.\n\nHeure: 2025-05-04T19:48:58.956Z...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T19:48:58.969Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Test de diagnostic - 2025-05-04T19:48:58.956Z"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:00.042Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<36d18eee-d613-dfc8-0ead-76ca05b9fc6f@gmail.com>",
+  "response": "250 2.0.0 OK  1746388139 5b1f17b1804b1-441ae456d7dsm110864005e9.1 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:00.057Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "🎉 Bienvenue à votre abonnement Premium!",
+  "textPreview": "Bonjour,\n\nMerci de vous être abonné à notre service premium. Votre abonnement est maintenant actif.\n...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:00.062Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "🎉 Bienvenue à votre abonnement Premium!"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:01.394Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<44b47a71-a2d7-ddfe-9dd7-3faa291cc6a5@gmail.com>",
+  "response": "250 2.0.0 OK  1746388141 5b1f17b1804b1-441ae456d7dsm110864005e9.1 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:01.413Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "🎉 Bienvenue à votre abonnement Premium!",
+  "textPreview": "Bonjour,\n\nMerci de vous être abonné à notre service premium. Votre abonnement est maintenant actif.\n...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:01.414Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "🎉 Bienvenue à votre abonnement Premium!"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:02.742Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<d61544b5-2ed7-ddeb-6ca3-0250d977d4b2@gmail.com>",
+  "response": "250 2.0.0 OK  1746388142 5b1f17b1804b1-441ae456d7dsm110864005e9.1 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:32.949Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Test de diagnostic - 2025-05-04T19:49:32.947Z",
+  "textPreview": "Ceci est un email de test envoyé par le script de diagnostic.\n\nHeure: 2025-05-04T19:49:32.947Z...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:32.950Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Test de diagnostic - 2025-05-04T19:49:32.947Z"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:34.458Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<713b1b45-4877-fd63-4f23-4e4d62a30651@gmail.com>",
+  "response": "250 2.0.0 OK  1746388174 ffacd0b85a97d-3a099ae0cd6sm8101977f8f.5 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:34.466Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "🎉 Bienvenue à votre abonnement Premium!",
+  "textPreview": "Bonjour,\n\nMerci de vous être abonné à notre service premium. Votre abonnement est maintenant actif.\n...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:34.467Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "🎉 Bienvenue à votre abonnement Premium!"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:35.117Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<edf505b9-2c3f-9d1f-03d8-ed425ac6ef09@gmail.com>",
+  "response": "250 2.0.0 OK  1746388174 ffacd0b85a97d-3a099ae0cd6sm8101977f8f.5 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:35.143Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "🎉 Bienvenue à votre abonnement Premium!",
+  "textPreview": "Bonjour,\n\nMerci de vous être abonné à notre service premium. Votre abonnement est maintenant actif.\n...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:35.145Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "🎉 Bienvenue à votre abonnement Premium!"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T19:49:35.730Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<96a360d1-be80-b3b8-3256-77a0d8932938@gmail.com>",
+  "response": "250 2.0.0 OK  1746388175 ffacd0b85a97d-3a099ae0cd6sm8101977f8f.5 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T19:59:50.115Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-04T19:59:50.432Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-04T20:07:36.479Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-04T20:07:36.802Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-04T20:09:16.098Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-04T20:09:16.415Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-04T20:09:18.380Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-04T20:09:18.701Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-04T20:12:08.754Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-04T20:12:09.075Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-04T20:20:42.232Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-04T20:20:42.542Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-04T20:22:13.290Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-04T20:22:13.618Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-04T20:25:15.120Z",
+  "action": "EMAIL_CONFIG",
+  "service": "gmail",
+  "user": "kyllian.grollemund@gmail.com",
+  "configured": true
+}
+---
+{
+  "timestamp": "2025-05-04T20:25:15.408Z",
+  "action": "EMAIL_VERIFY_SUCCESS",
+  "user": "kyllian.grollemund@gmail.com"
+}
+---
+{
+  "timestamp": "2025-05-04T20:25:47.292Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com@gmail.com",
+  "subject": "Test de notification - Ne pas répondre",
+  "textPreview": "Ceci est un email de test pour vérifier que le service de notification fonctionne correctement.\n\nSi ...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T20:25:47.293Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com@gmail.com",
+    "subject": "Test de notification - Ne pas répondre"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T20:25:47.602Z",
+  "action": "SEND_EMAIL_ERROR",
+  "to": "kyllian.grollemund@gmail.com@gmail.com",
+  "error": "Can't send mail - all recipients were rejected: 553-5.1.3 The recipient address <kyllian.grollemund@gmail.com@gmail.com> is not\n553-5.1.3 a valid RFC 5321 address. For more information, go to\n553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321\n553 5.1.3 specifications. 5b1f17b1804b1-441b8e97c53sm108987845e9.9 - gsmtp",
+  "stack": "Error: Can't send mail - all recipients were rejected: 553-5.1.3 The recipient address <kyllian.grollemund@gmail.com@gmail.com> is not\n553-5.1.3 a valid RFC 5321 address. For more information, go to\n553-5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321\n553 5.1.3 specifications. 5b1f17b1804b1-441b8e97c53sm108987845e9.9 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._actionRCPT (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1678:28)\n    at SMTPConnection.<anonymous> (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1631:30)\n    at SMTPConnection._processResponse (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n    at SMTPConnection._onSocketData (C:\\Users\\kylli\\OneDrive\\Bureau\\YNOV\\M2\\web_Service\\projet\\notification-mail-sms-service-KGROLLEMUND\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n    at TLSSocket.emit (node:events:514:28)\n    at addChunk (node:internal/streams/readable:545:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)\n    at Readable.push (node:internal/streams/readable:375:5)",
+  "code": "EENVELOPE"
+}
+---
+{
+  "timestamp": "2025-05-04T20:29:33.406Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Test de notification - Ne pas répondre",
+  "textPreview": "Ceci est un email de test pour vérifier que le service de notification fonctionne correctement.\n\nSi ...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T20:29:33.407Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Test de notification - Ne pas répondre"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T20:29:34.350Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<c354bbc9-06d9-bb03-3f42-7bf296e9b325@gmail.com>",
+  "response": "250 2.0.0 OK  1746390574 ffacd0b85a97d-3a099b17096sm8497373f8f.96 - gsmtp"
+}
+---
+{
+  "timestamp": "2025-05-04T20:30:48.681Z",
+  "action": "SEND_EMAIL_START",
+  "to": "kyllian.grollemund@gmail.com",
+  "subject": "Test de notification - Ne pas répondre",
+  "textPreview": "Ceci est un email de test pour vérifier que le service de notification fonctionne correctement.\n\nSi ...",
+  "hasAttachments": false
+}
+---
+{
+  "timestamp": "2025-05-04T20:30:48.682Z",
+  "action": "SEND_EMAIL_ATTEMPT",
+  "options": {
+    "from": "\"Service de notifications\" <kyllian.grollemund@gmail.com>",
+    "to": "kyllian.grollemund@gmail.com",
+    "subject": "Test de notification - Ne pas répondre"
+  }
+}
+---
+{
+  "timestamp": "2025-05-04T20:30:50.409Z",
+  "action": "SEND_EMAIL_SUCCESS",
+  "to": "kyllian.grollemund@gmail.com",
+  "messageId": "<90d55bcd-9aa6-9aaa-d677-d2f9cfdd09f5@gmail.com>",
+  "response": "250 2.0.0 OK  1746390650 5b1f17b1804b1-441b8a315fdsm110038165e9.34 - gsmtp"
+}
+---
